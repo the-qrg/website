@@ -244,7 +244,7 @@ alt = "Quantum Gif 3"> that command is then translated into the material you see
 
 <!-- end of main pages -->
 <!-- footer & scroll progress bar -->
-<div class="footer">
+<div class="footer" id = "footer_id">
 <div class="footer_inner">
 <p class="footer_text">Website design by: Justin Cook</p>
 </div>
@@ -306,7 +306,7 @@ color: inherit;"><img id = "myiFrame" class = "vid-size" src="https://img.youtub
 <!-- end of top nav menu -->
 
 <!-- start of bottom nav menu -->
-<div class="parent_container_bottom_nav">
+<div class="parent_container_bottom_nav" id = "bottom_nav">
 <a href="https://github.com/theqrg" target ="_blank" "#GitHub"><img src="https://i.imgur.com/anSVIqP.png" title="Look to the future through our GitHub" class = "bottom_nav_icons" alt ="Git it!"></a>
 <a href="https://discord.gg/GZCaxm" target ="_blank" "#Discord"><img src="https://i.imgur.com/5E6bKdb.png" title="Join the talk over on our Discord server" class = "bottom_nav_icons" alt ="Discord bot"></a>
 <a href="https://instagram.com/theqrg?igshid=tjqyqr0xz583" target ="_blank" "#Instagram"><img src="https://i.imgur.com/zWrBet4.png" title="Follow our Instagram!" class = "bottom_nav_icons" alt ="IG"></a>
@@ -710,8 +710,8 @@ cursor: pointer;
 width: 100%;
 font-size: 18px;
 left:0;
-bottom:20px;
-position: fixed;
+bottom: 0px;
+position: relative;
 }
 
 .span_shift_e-board{
@@ -1543,6 +1543,7 @@ position: fixed;
 z-index: 3;
 top:0;
 right: 0;
+overflow: hidden;
 background-image: url('https://i.imgur.com/JN0KAUA.gif');
 opacity: 1.0;
 transition: .2s;
@@ -1550,6 +1551,7 @@ transition: .2s;
 .side_nav_child_container{
 with: 90%;
 height: 75%;
+z-index: 4;
 border-radius: 25px;
 border-color: white;
 border-style: inset;
@@ -1597,7 +1599,7 @@ position: relative;
 .vid-size{
 width: 100%;
 height: 100%;
-transition: 1s; 
+transition: 2s; 
 border-radius: 25px;    
 }
 .play-btn {
@@ -1770,14 +1772,16 @@ height: 100%;
 position: fixed;
 z-index: 3;
 top:0;
+overflow: hidden;
 right: 0;
 background-image: url('https://i.imgur.com/JN0KAUA.gif');
 opacity: 1.0;
-transition: .2s;
+transition: 0.5s;
 }
 .side_nav_child_container{
 with: 90%;
 height: 75%;
+z-index: 4;
 border-radius: 25px;
 border-color: white;
 border-style: inset;
@@ -2033,7 +2037,7 @@ height: 75px;
 width: 200px;
 float: left;
 display: flex;
-z-index: 2;
+z-index: 3;
 border-radius: 25px; 
 border-width: 1px;
 border-color: black; 
@@ -2245,10 +2249,14 @@ document.getElementById("myBar").style.width = scrolled + "%";
 //Side nav bar open and close functions for mobile and desktop, and rotates the arrow in the top nav bar upon pressing
 function openNav_1() {
 document.getElementById("side_nav").style.width = "100%";
+document.getElementById("bottom_nav").style.display = "none";
+document.getElementById("footer_id").style.display = "none";
 document.getElementById("arrowhead").style.transform = 'rotate(-90deg)';
 }
 function closeNav() {
 document.getElementById("side_nav").style.width = "0";
+document.getElementById("bottom_nav").style.display = "flex";
+document.getElementById("footer_id").style.display = "block";
 document.getElementById("arrowhead").style.transform = 'rotate(360deg)';
 }
 
@@ -2270,7 +2278,7 @@ localStorage.clicks = 0;
 //The following is the iframe switching that you see present on the side nav bar
 //It includes an array of youtube embeded links and an algorithm that switches between the thumbnails
 //and links simulataneously, the link present on the nav bar at the start is early binded to be the first video in the array
-//The switching event occurs every 10 seconds aka 10000ms, this is when the function is triggered again
+//The switching event occurs every 5 seconds aka 5000ms, this is when the function is triggered again
 var u = 0;
 
 setInterval(function(){
@@ -2317,7 +2325,7 @@ document.getElementById("myiFrame").setAttribute("src", vidImage);
 } else { 
 console.log("The youtube url is not valid.");
 }   
-},10000);  
+},5000);  
 //End of iSwitch
 //Dog barks when somebody reports a bug.. soooo not often :D
 function play() {
