@@ -1,6 +1,6 @@
 <!DOCTYPE html> 
 
-<html style = "scroll-behavior: smooth; background-color: black;">
+<html lang="en" style = "scroll-behavior: smooth; background-color: black;">
 
 <head>
 
@@ -257,7 +257,7 @@ alt = "Quantum Gif 3"> that command is then translated into the material you see
 <!-- end of main pages -->
 
 <!-- side nav menu -->
-<img src = "https://i.imgur.com/aS4SrBL.gif" onclick="openNav_1()" class = "side_nav_tab_mobile" alt = "Open button mobile">
+<img src = "https://i.imgur.com/6Dd7amu.png" onclick="openNav_1()" class = "side_nav_tab_mobile" alt = "Open button mobile">
 </div>
 <div class = "side_nav_tab_desktop"></div>
 <div class = "side_nav_parent_container" id = "side_nav">
@@ -308,7 +308,7 @@ color: inherit;"><img id = "myiFrame" class = "vid-size" src="https://img.youtub
 <!-- start of bottom nav menu -->
 <div class="parent_container_bottom_nav" id = "bottom_nav">
 <a href="https://github.com/theqrg" target ="_blank" "#GitHub"><img src="https://i.imgur.com/anSVIqP.png" title="Look to the future through our GitHub" class = "bottom_nav_icons" alt ="Git it!"></a>
-<a href="https://discord.gg/GZCaxm" target ="_blank" "#Discord"><img src="https://i.imgur.com/5E6bKdb.png" title="Join the talk over on our Discord server" class = "bottom_nav_icons" alt ="Discord bot"></a>
+<a href="https://discord.gg/9qqmrzc" target ="_blank" "#Discord"><img src="https://i.imgur.com/5E6bKdb.png" title="Join the talk over on our Discord server" class = "bottom_nav_icons" alt ="Discord bot"></a>
 <a href="https://instagram.com/theqrg?igshid=tjqyqr0xz583" target ="_blank" "#Instagram"><img src="https://i.imgur.com/zWrBet4.png" title="Follow our Instagram!" class = "bottom_nav_icons" alt ="IG"></a>
 <a href="https://twitter.com/theqrg" target ="_blank" "#Twitter"><img src="https://i.imgur.com/Bav3CpK.png" title="See the hottest news on our Twitter" class = "bottom_nav_icons" alt ="Tweet tweet"></a>
 </div>
@@ -710,7 +710,7 @@ cursor: pointer;
 width: 100%;
 font-size: 18px;
 left:0;
-bottom: 0px;
+bottom: -50px;
 position: relative;
 }
 
@@ -721,6 +721,25 @@ background-color: "black";
 
 /* Special case styling for tablets and mobile
 phones turned horizontally */
+@media screen and (min-width: 568px) {    
+.e-board_contact_button {
+font-size: 30px; 
+color: white; 
+font-weight: 500;
+border: none;
+outline: 0;
+display: block;
+color: white;
+background-color: black;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+left:0;
+bottom: 50px;
+position: absolute;
+}
+}
 @media screen and (max-width: 830px) {
 .e-board-image-style{
 height: 150px; 
@@ -1629,17 +1648,14 @@ display: block;
 }
 .side_nav_tab_mobile{
 position: fixed;
-height: 100px;
-width: 160px;
+height: 40px;
+width: 40px;
 display: block;
 z-index: 2;
 background-color: transparent;
 right: 0;
 top: 50%;
 cursor:pointer
-}
-.side_nav_tab_desktop{
-
 }
 img.side_nav_exit_button{
 height: 150px;
@@ -1691,6 +1707,43 @@ height: 80%;
 transition: 1s; 
 border-radius: 25px;    
 }
+.side_nav_tab_mobile{
+position: fixed;
+height: 50px;
+width: 50px;
+display: block;
+z-index: 2;
+background-color: transparent;
+right: 0;
+top: 50%;
+cursor:pointer
+}
+}
+@media screen and (min-width: 400px) {
+.side_nav_tab_mobile{
+position: fixed;
+height: 55px;
+width: 55px;
+display: block;
+z-index: 2;
+background-color: transparent;
+right: 0;
+top: 50%;
+cursor:pointer
+}
+}
+@media screen and (min-width: 700px) {
+.side_nav_tab_mobile{
+position: fixed;
+height: 80px;
+width: 80px;
+display: block;
+z-index: 2;
+background-color: transparent;
+right: 0;
+top: 50%;
+cursor:pointer
+}
 }
 @media screen and (max-height: 375px) {
 .vid-size{
@@ -1733,7 +1786,7 @@ top: 0;
 margin-top: -20px;
 }
 } 
-@media screen and (max-height: 414px) {
+@media screen and (max-height: 414px){
 .vid-size{
 display: none;
 }
@@ -1751,8 +1804,6 @@ font-size: 20px;
 color: black;
 }
 }    
-@media screen and (max-width: 420px) {
-}
 @media screen and (max-height: 568px) {
 .vid-size{
 display: none;
@@ -1760,10 +1811,6 @@ display: none;
 .play-btn {
 display: none;
 }
-}
-@media screen and (max-width: 823px) {
-}
-@media screen and (max-width: 830px) {
 }
 @media screen and (min-width: 1024px) {
 .side_nav_parent_container{
@@ -1858,8 +1905,8 @@ display: block;
 }
 .side_nav_tab_mobile{
 position: fixed;
-height: 200px;
-width: 340px;
+height: 100px;
+width: 100px;
 display: block;
 z-index: 2;
 background-color: transparent;
@@ -1876,7 +1923,7 @@ top: 0;
 color: #f1f1f1;        
 }
 }
-/* Side Navigation bar styling */ 
+/* Side Navigation bar styling */   
 /*Top Navigation bar styling */
 .parent_container_top_nav {
 background-color: #ffffff;
@@ -2117,7 +2164,7 @@ margin-bottom: -70px;
 }
 @media screen and (max-width: 360px){
 img.bug_boi{
-height: 190px;     
+display: none;    
 }
 }
 @media screen and (max-height: 375px){
@@ -2134,6 +2181,14 @@ position: fixed;
 margin-left: -50px;
 margin-bottom: -70px;
 }
+img.bug_boi{
+display: none;    
+}
+}
+@media screen and (max-height: 420px){
+img.bug_boi{
+display: none;    
+}
 }
 @media screen and (max-width: 420px){
 .report_a_bug{
@@ -2149,6 +2204,9 @@ position: fixed;
 margin-bottom: 2px;
 margin-left: -40px;
 }    
+img.bug_boi{
+display: none;    
+}
 }
 @media screen and (max-width: 768px){
 .report_a_bug{
