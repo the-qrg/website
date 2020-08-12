@@ -1,24 +1,16 @@
-<!DOCTYPE html> 
-
-<html lang="en" style = "scroll-behavior: smooth; background-color: black;">
-
+<!DOCTYPE html>
+<html lang="en" style = "scroll-behavior: smooth; background-color: white; overflow-x: hidden;">
 <head>
-
-<meta name="msapplication-TileColor" content="#da532c">
-
-<meta name="theme-color" content="#ffffff">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8"/>
 
-<link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
-    
-<link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
-    
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#ffffff">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 
@@ -26,480 +18,791 @@
 
 <link rel="manifest" href="/site.webmanifest">
 
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="white">
+
+<meta name="msapplication-TileColor" content="white">
+
+<meta name="theme-color" content="white">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"> <!-- Open sans Light 300 - Extra-bold 800 italic -->
+
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> <!-- RaleWay Thin 100-Black 900 Italic -->
+
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet"> <!-- Charm Cursive font Regular 400-Bold 700 -->
+<!-- Google Fonts -->
 
 </head>
-<title> The Q.R.G </title>	 
-<body>
+<title> The Q.R.G </title>
+<body style = "overflow-x: hidden; margin:0px;">
 
-<!-- Page 1 -->
-<!-- The first container section for the website, this contains the general information about our club -->
+
+<!-- Loading screen section -->
+<!-- The slight delay allows for larger assets to be loaded up completely, and makes UX on slower networks more tolerable -->
 <section>
-<div class = "parent_Container_1">
-<div class = "background_picture">
-<div class = "child_text_box_container_center">
-<div class = "mobile_header_container"><p1 class = "text-box-text_first">NYC'S Research Collective for Quantum Computing</p1><h3 class = "text-box-text1"><span class= "span_border">Welcome to The QRG</span>
-</span><div class = "typewriter_container"><p1 class = "text-box-text5">Quantum Computing for </p1><div id = "typewriter"><a  href="" class="typewrite" data-period="2000" data-type='[ "Healthcare", "Security", "Finance", "Transportation","Social Nodes","EDTech", "Agriculture","Fuel Efficiency","Architecture"]'>
-<span class="wrap"></span>
-</a></div></div> <span class = "span_shift"></span></h3>
-<br><br>
-<p1 class = "text-box-text2">At The New York Institute of Technology</p1></div>
-<span class = "span_shift"></span>
-<div class = "child_text_box_container_center"><p1 class = "text-box-text3">Originating from the Innovation Labs at New York Institute of Technology, a group of 4 qc-interested engineering & comp sci students sit down to found NYIT's very first quantum computing club in 2019.</p1>
-<br><br>
-<p1 class = "text-box-text3">Desiring to expand their knowledge beyond the institution, The Quantum Research Group is a collective of students, professors, researchers, and industry experts across all disciplines in NYIT and New York City using an interdisciplinary lens to tackle the future's biggest and most exciting problems. This isn't just a computer science/engineering group, this is a group that needs everyone.
-</p1>
-<br><br>
-<p1 class = "text-box-text4">And, indeed, everyone will need quantum computers :)</p1><br><br>
-<div class = "QRG_Logo_Parent">
-<img src = "https://i.imgur.com/WGJq8MP.png" alt = "QRG Logo" class = "QRG_Logo_container" id = "contact_section"></div>
+<div class = "parent_container_loading_screen" id = "loading_dock">
+<div class = "child_container_loading_screen">
+<div class = "QRG_Logo_panel_shudder_left">
+</div>
+<img class = "child_container_loading_image2" src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/QRG_logo_loadingscreen_vector.svg" alt = "QRG_Loadingscreen_logo">
+<img  class = "child_container_loading_image3" src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/Atomic_radius_symbol.svg" alt = "Atomic_radius">
+<div  class = "child_container_loading_image4"></div>
+<img  class = "child_container_loading_image5" src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/Loadingscreen_loadingtext.svg" alt = "Loading_text">
+<div class = "QRG_Logo_panel_shudder_logooverlay"></div>
+<div class = "QRG_Logo_panel_shudder_right">
 </div>
 </div>
 </div>
-</div>
+<!-- End of loading screen section -->
 </section>
-<!-- Page 1 -->
 
-<!-- Page 2 -->   
+<section style = "transition: 1s;" id = "Document_container">
+<!-- Start of main home page -->
 <section>
-<div class = "e-board_parent_container">
-<div class = "e-board_header"><p1 class = "e-board-header-text">Executive Board Members</p1></div>
-<span class = "span_shift_e-board"></span>
-<div class = "e-board_card_container"> 
+<!-- Div 1 of main home page -->
+<div class = "parent_container_header">
+<div class = "child_container_header" id = "top_header">
+<div class = "child_container_header_text">
+</div>
+<div class = "child_container_header_image_parent">
+</div>
+</div>
+</div>
+<!-- End of Div 1--> 
+</section>
 
+<section>
+<!-- Div 2 of main home page -->
+<div class = "parent_container_QRG_main">
+<div class = "child_container_QRG_main">
+<div class= "QRG_welcometextbox"><p1 class ="text-box-text_top-header">NYC'S Research Collective for Quantum Computing</p1></div>
+<video autoplay muted playsinline loop id="Homepage_Hexagons">
+<source src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Other+Assets+/Videos/hexagons_in_motion.mp4" type="video/mp4">
+</video>
+<br><br><br><br><br><br>
+<img class = "child_container_QRG_logo" src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/QRG_logo_loadingscreen_vector.svg" alt = "QRG_Logo" id = "QRG_logo_main_top"> 
+<div  class = "child_container_loading_logoimage"></div>
+<div  class = "child_container_loading_logoimage2"></div>
+<div  class = "child_container_loading_logoimage3"></div>
+<div  class = "child_container_loading_logoimage4"></div>
+<br><br>
+<div class = "mobile_header_container">
+<br><br><br><br><div class = "typewriter_container"><p1 class = "text-box-text5">Quantum Computing for</p1>
+<br><br>
+<div id = "typewriter"><a  href="#" class="typewrite" data-period="2000" data-type='[ "Healthcare", "Security", "Finance", "Transportation","Social Nodes","EDTech", "Agriculture","Fuel Efficiency","Architecture"]'>
+<span class="wrap"></span>
+</a>
+</div>
+</div>
+<br><br><br><br><br><br>
+<p1 class = "text-box-text2">At The New York Institute of Technology</p1></div>
+<div class = "Navbar_main_font_container" id = "myHeader">
+<a href = "#"><p1 class = "Navbar_main_font2" title = "Back to HQ"> Home </p1></a>
+<p1 onclick = "location.href='#WIQC_shortcut'" class = "Navbar_main_font1" title = "Learn more about our cause"> About </p1>
+<a href="mailto:quantamnyc@nyit.edu"><p1 class = "Navbar_main_font1" title = "Get in contact with us!"> Contact Us </p1></a>
+<div class= "dropdown_menu_container">
+<a href = "#"><p1 class = "dropbtn" title = "Some vital tools"> Resources </p1></a>
+<div class = "dropdown-content_container2">
+<a href = "https://www.dwavesys.com/" target ="_blank"><p1 title = "The first top dog in Quantum Computing">D-Wave</p1></a>
+<a href = "https://www.ibm.com/quantum-computing/" target ="_blank"><p1 title = "The second top dog in Quantum Computing">IBM</p1></a>
+<a href = "https://research.google/teams/applied-science/quantum/" target ="_blank"><p1 title = "Google's take on the Quantum leap">Google</p1></a>
+<a href = "https://www.microsoft.com/en-us/quantum" target ="_blank"><p1 title = "Microsoft's take on the Quantum leap">Microsoft</p1></a>
+</div>
+</div> 
+<p1 onclick = "location.href='#QC_Vids';" class = "Navbar_main_font1" title = "The latest and greatest on the big Q"> Quantum News </p1>
+<a href = "https://www.nyit.edu/" target ="_blank"><p1 class = "Navbar_main_font1" title = "School Pride!"> NYIT </p1></a>
+</div>
+</div>
+</div>
+<!-- End of Div 2 -->
+</section>
+
+<section>
+<!-- Start of Div 3 --> <!-- About Section -->
+<div class = "parent_container_main-body">
+<div class = "child_container_main-body">
+<div class = "grand_child_container_main-body">
+<p1 class = "child_container_main-body_textheading">Our Story</p1>
+</div>
+<div class = "child_container_main-body_textsubset">
+<p1 class = "child_container_main-body_text1">Originating from the Innovation Labs at New York Institute of Technology, a group of 4 qc-interested engineering & comp sci students sit down to found NYIT's very first quantum computing club in 2019.</p1>
+<br><br><br><br>
+<p1 class = "child_container_main-body_text1">Desiring to expand their knowledge beyond the institution, The Quantum Research Group is a collective of students, professors, researchers, and industry experts across all disciplines in NYIT and New York City using an interdisciplinary lens to tackle the future's biggest and most exciting problems. This isn't just a computer science/engineering group, this is a group that needs everyone.</p1>
+<br><br><br><br>
+<p1 class = "child_container_main-body_text1">And, indeed, everyone will need quantum computers :)</p1>
+<br><br><br><br>
+<img class = "child_container_Ourstory_image" src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/QRG_logo_loadingscreen_vector.svg" alt = "QRG_logo_Ourstory">
+</div>
+<div class = "About_us_section_header_container1">
+<div class = "line_of_separation_solid"></div>
+<p1 id = "Aboutussectionpointer" class = "About_us_section_title_header1">Meet our E-Board</p1>
+</div>
+
+<!-- BREAK -->    
+
+<div class = "About_us_section_header_container2" style = "background-color: #f54251;">
+<p1 class = "About_us_section_title_header2">President</p1>
+</div>
+<div class = "About_us_section_body_container1">
+<div class = "Card_container_Eboard" style = "background-color: #f54251">
 <!-- Shwetha's card -->
-<div class = "card">
+<div class = "card" style = "background: radial-gradient(#f54251 4px, transparent 5px); background-size: 30px 30px;">
 <div class ="card-inner">
 <div class="card-front">
-<img class = "e-board-image-style" src="https://i.imgur.com/YF83d6J.jpg" alt="SJ"><br>
-<br><p1 style="font-size: 32px; color: black; font-weight: 800">Shwetha Jayaraj</p1><br>
-<br><p1 style="font-size: 29px; color: black; font-weight: 500">President</p1><br>
-<br><p1 style="font-size: 17px; color: white; font-weight: 500; background-color:black; border-radius: 25px; border-width: 1px; border-color: black; border-style: solid;"> B.S/M.S </p1>
-<p1 style="font-size: 20px; color: black; font-weight: 800"> Computer Science '20</p1>
-<button class = "e-board_contact_button">Contact</button>
+<img class = "e-board-image-style" src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Image+Assets+/E-Board+Portraits+/SJ.jpeg" alt="SJ">
 </div>
 <div class = "card-back">
-<br><br>
-<br><br>
-<br><br>
-<a href="https://www.linkedin.com/in/shwetha-jayaraj-a2945a9b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BG%2BytDVi4SG%2B0o6dKx8P4IQ%3D%3D" target ="_blank" "#LinkedIn"><img class = "e-board-back-image-style" src="https://i.imgur.com/mVFSp9P.png"  title="Shwetha's LinkedIn" alt = "LinkedIn Symbol"></a>
+<a href="https://www.linkedin.com/in/shwetha-jayaraj-a2945a9b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BG%2BytDVi4SG%2B0o6dKx8P4IQ%3D%3D" target ="_blank" "#LinkedIn"><img class = "e-board-back-image-style" src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/Social+Media/LinkedIn_transparent.svg"  title="Shwetha's LinkedIn" alt = "LinkedIn Symbol"></a>
 </div>
+</div>
+</div>
+<div class = "card_informationpanel_sidediv" style = "border-color: #f54251;">
+<div class = "card_informationpanel_sidediv_textcontainer">
+<p1 class = "card_informationpanel_sidediv_text"style = "font-weight: 700; color:#f54251" >Shwetha Jayaraj</p1><br><br>
+<p1 class = "card_informationpanel_sidediv_text"style = "font-weight: 500;">QRG President</p1><br><br>
+<p1 class = "card_informationpanel_sidediv_text">B.S/M.S</p1><br><br>   
+<p1 class = "card_informationpanel_sidediv_text">Computer Science '20</p1><br><br>
+<a href="https://www.linkedin.com/in/shwetha-jayaraj-a2945a9b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BG%2BytDVi4SG%2B0o6dKx8P4IQ%3D%3D" target ="_blank" "#LinkedIn" title="Shwetha's LinkedIn"><p1 class = "card_informationpanel_sidediv_text_button" style = "background-color: #f54251;">Contact</p1></a><br><br>
+<p1 class = "card_informationpanel_sidediv_text" style = "font-size: 15px">Tip: Hover your mouse over</p1><br>
+<p1 class = "card_informationpanel_sidediv_text" style = "font-size: 15px">or tap the picture</p1><br><br>
 </div>
 </div>
 <!-- Shwetha's card -->
+</div>
 
-<!-- Mareme's card -->    
-<div class = "card">
+<!-- BREAK -->    
+
+<div class = "About_us_section_header_container2" style = "background-color: #426cf5;">
+<p1 class = "About_us_section_title_header2">Vice President</p1>
+</div>
+<div class = "Card_container_Eboard" style = "background-color: #426cf5">
+<!-- Mareme's card -->
+<div class = "card" style = "background: radial-gradient(#426cf5 4px, transparent 5px); background-size: 30px 30px;">
 <div class ="card-inner">
 <div class="card-front">
-<img class = "e-board-image-style" src="https://i.imgur.com/EFufSSh.jpg" alt="MS"><br>
-<br><p1 style="font-size: 32px; color: black; font-weight: 800">Mareme Sall</p1><br>
-<br><p1 style="font-size: 29px; color: black; font-weight: 500">Vice President</p1><br>
-<br><p1 style="font-size: 17px; color: white; font-weight: 500; background-color:black; border-radius: 25px; border-width: 1px; border-color: black; border-style: solid;"> B.S </p1>
-<p1 style="font-size: 20px; color: black; font-weight: 800"> E.C.E.T '21</p1>
-<button class = "e-board_contact_button">Contact</button>
+<img class = "e-board-image-style" src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Image+Assets+/E-Board+Portraits+/MS.jpeg" alt="MS">
 </div>
 <div class = "card-back">
-<br><br>
-<br><br>
-<br><br>
-<a href="https://www.linkedin.com/in/mareme-sall-32458a183?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba2TNop1xQSyzFbVfC%2Bx%2BDA%3D%3D"target ="_blank""#LinkedIn"><img class = "e-board-back-image-style" src="https://i.imgur.com/mVFSp9P.png" title="Mareme's LinkedIn" alt = "LinkedIn Symbol"></a>
+<a href="https://www.linkedin.com/in/mareme-sall-32458a183?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba2TNop1xQSyzFbVfC%2Bx%2BDA%3D%3D" target ="_blank" "#LinkedIn"><img class = "e-board-back-image-style" src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/Social+Media/LinkedIn_transparent.svg"  title="Mareme's LinkedIn" alt = "LinkedIn Symbol"></a>
 </div>
+</div>
+</div>
+<div class = "card_informationpanel_sidediv" style = "border-color: #426cf5;">
+<div class = "card_informationpanel_sidediv_textcontainer">
+<p1 class = "card_informationpanel_sidediv_text"style = "font-weight: 700; color: #426cf5;" >Mareme Sall</p1><br><br>
+<p1 class = "card_informationpanel_sidediv_text"style = "font-weight: 500;">QRG Vice President</p1><br><br>
+<p1 class = "card_informationpanel_sidediv_text">B.S</p1><br><br>   
+<p1 class = "card_informationpanel_sidediv_text">E.C.E.T '21</p1><br><br>
+<a href="https://www.linkedin.com/in/mareme-sall-32458a183?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba2TNop1xQSyzFbVfC%2Bx%2BDA%3D%3D" target ="_blank" "#LinkedIn" title="Mareme's LinkedIn"><p1 class = "card_informationpanel_sidediv_text_button" style = "background-color: #426cf5;">Contact</p1></a><br><br>
+<p1 class = "card_informationpanel_sidediv_text" style = "font-size: 15px">Tip: Hover your mouse over</p1><br>
+<p1 class = "card_informationpanel_sidediv_text" style = "font-size: 15px">or tap the picture</p1><br><br>
 </div>
 </div>
 <!-- Mareme's card -->
+</div>
 
+<!-- BREAK -->   
+
+<div class = "About_us_section_header_container2" style = "background-color: #42f5d1;">
+<p1 class = "About_us_section_title_header2">Treasurer</p1>
+</div>
+<div class = "Card_container_Eboard" style = "background-color: #42f5d1">
 <!-- Elis' card -->
-<div class = "card">
+<div class = "card" style = "background: radial-gradient(#42f5d1 4px, transparent 5px); background-size: 30px 30px;">
 <div class ="card-inner">
 <div class="card-front">
-<img class = "e-board-image-style" src="https://i.imgur.com/6xT1692.jpg" alt="EC"><br>
-<br><p1 style="font-size: 32px; color: black; font-weight: 800">Elis Cucka</p1><br>
-<br><p1 style="font-size: 29px; color: black; font-weight: 500">Treasurer</p1><br>
-<br><p1 style="font-size: 17px; color: white; font-weight: 500; background-color:black; border-radius: 25px; border-width: 1px; border-color: black; border-style: solid;"> B.S </p1>
-<p1 style="font-size: 20px; color: black; font-weight: 800"> E.C.E '21</p1>
-<button class = "e-board_contact_button">Contact</button>
+<img class = "e-board-image-style" src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Image+Assets+/E-Board+Portraits+/EC.jpeg" alt="EC">
 </div>
 <div class = "card-back">
-<br><br>
-<br><br>
-<br><br>
-<a href="https://www.linkedin.com/in/eliscucka?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BxlqoONKRQHOJr%2BcwomvT1g%3D%3D"target ="_blank""#LinkedIn"><img class = "e-board-back-image-style" src="https://i.imgur.com/mVFSp9P.png" title="Elis' LinkedIn" alt = "LinkedIn Symbol"></a>
+<a href="https://www.linkedin.com/in/eliscucka?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BxlqoONKRQHOJr%2BcwomvT1g%3D%3D" target ="_blank" "#LinkedIn"><img class = "e-board-back-image-style" src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/Social+Media/LinkedIn_transparent.svg"  title="Elis' LinkedIn" alt = "LinkedIn Symbol"></a>
 </div>
+</div>
+</div>
+<div class = "card_informationpanel_sidediv" style = "border-color: #42f5d1;">
+<div class = "card_informationpanel_sidediv_textcontainer">
+<p1 class = "card_informationpanel_sidediv_text"style = "font-weight: 700; color: #42f5d1" >Elis Cucka</p1><br><br>
+<p1 class = "card_informationpanel_sidediv_text"style = "font-weight: 500;">Treasurer</p1><br><br>
+<p1 class = "card_informationpanel_sidediv_text">B.S</p1><br><br>   
+<p1 class = "card_informationpanel_sidediv_text"> E.C.E '21</p1><br><br>
+<a href="https://www.linkedin.com/in/eliscucka?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BxlqoONKRQHOJr%2BcwomvT1g%3D%3D" target ="_blank" "#LinkedIn" title="Elis' LinkedIn"><p1 class = "card_informationpanel_sidediv_text_button" style = "background-color: #42f5d1;">Contact</p1></a><br><br>
+<p1 class = "card_informationpanel_sidediv_text" style = "font-size: 15px">Tip: Hover your mouse over</p1><br>
+<p1 class = "card_informationpanel_sidediv_text" style = "font-size: 15px">or tap the picture</p1><br><br>
 </div>
 </div>
 <!-- Elis' card -->
+</div>
 
+<!-- BREAK -->  
+
+<div class = "About_us_section_header_container2" style = "background-color: #4248f5;">    
+<p1 class = "About_us_section_title_header2">Senator/Secretary</p1>
+</div>
+<div class = "Card_container_Eboard" style = "background-color: #4248f5">
 <!-- Justin's card -->
-<div class = "card">
+<div class = "card" style = "background: radial-gradient(#4248f5 4px, transparent 5px); background-size: 30px 30px;">
 <div class ="card-inner">
 <div class="card-front">
-<img class = "e-board-image-style" src="https://i.imgur.com/q0hAyzw.jpg" alt="JC"><br>
-<br><p1 style="font-size: 32px; color: black; font-weight: 800">Justin Cook</p1><br>
-<br><p1 style="font-size: 29px; color: black; font-weight: 500">Secretary & Senator</p1><br>
-<br><p1 style="font-size: 17px; color: white; font-weight: 500; background-color:black; border-radius: 25px; border-width: 1px; border-color: black; border-style: solid;"> B.S </p1>
-<p1 style="font-size: 20px; color: black; font-weight: 800"> E.C.E '22</p1>
-<button class = "e-board_contact_button">Contact</button>
+<img class = "e-board-image-style" src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Image+Assets+/E-Board+Portraits+/JC.jpeg" alt="JC">
 </div>
 <div class = "card-back">
-<br><br>
-<br><br>
-<br><br>
-<a href="https://www.linkedin.com/in/justin-cook-53a904140?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bknkt6USzTxGNA0eE7auBPg%3D%3D"target ="_blank""#LinkedIn"><img class = "e-board-back-image-style" src="https://i.imgur.com/mVFSp9P.png" title="Justin's LinkedIn" alt = "LinkedIn Symbol"></a>
+<a href="https://www.linkedin.com/in/justin-cook-53a904140?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bknkt6USzTxGNA0eE7auBPg%3D%3D" target ="_blank" "#LinkedIn"><img class = "e-board-back-image-style" src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/Social+Media/LinkedIn_transparent.svg"  title="Justin's LinkedIn" alt = "LinkedIn Symbol"></a>
 </div>
 </div>
-</div>  
+</div>
+<div class = "card_informationpanel_sidediv" style = "border-color: #4248f5;">
+<div class = "card_informationpanel_sidediv_textcontainer">
+<p1 class = "card_informationpanel_sidediv_text"style = "font-weight: 700; color: #4248f5;" >Justin Cook</p1><br><br>
+<p1 class = "card_informationpanel_sidediv_text"style = "font-weight: 500;">Secretary & Senator</p1><br><br>
+<p1 class = "card_informationpanel_sidediv_text">B.S</p1><br><br>   
+<p1 class = "card_informationpanel_sidediv_text">E.C.E '22</p1><br><br>
+<a href="https://www.linkedin.com/in/justin-cook-53a904140?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bknkt6USzTxGNA0eE7auBPg%3D%3D" target ="_blank" "#LinkedIn" title="Justin's LinkedIn"><p1 class = "card_informationpanel_sidediv_text_button" style = "background-color: #4248f5;">Contact</p1></a><br><br>
+<p1 class = "card_informationpanel_sidediv_text" style = "font-size: 15px">Tip: Hover your mouse over</p1><br>
+<p1 class = "card_informationpanel_sidediv_text" style = "font-size: 15px">or tap the picture</p1><br><br>
+</div>
+</div>
 <!-- Justin's card -->
-
-</div>   
 </div>
+
+<!-- BREAK -->  
+
+</div>
+</div>
+<div class = "line_of_separation_solid" style="margin-bottom: 0;"></div>
+</div>
+</div>
+<!-- End of Div 3 --> <!-- About Section -->
 </section>
-<!-- Page 2 -->
 
-<!-- Page 3 -->
 <section>
+<!-- Start of Div 4 --> <!-- Our Mascot -->
+<br><br>
 <div class = "parent_container_mascot">
-<h3 class = "mascot_text_style"> Our Mascot: </h3>
 <div class = "child_container_mascot">
-<a href = "https://youtu.be/Lt_AisElt8s?t=454" target="_blank"><img class = "mascot_style" src = "https://i.imgur.com/SwIJ4wd.png" alt = "QRG Doggo";></a></div>  
-<p1 class = "mascot_text_style"> A corgie named Queen - a gender non-binary dog.</p1>
-</div>   
+<div class = "About_us_section_header_container1" style = "margin-top: 2vh; margin-bottom: 2vh; background-color: #ffd61f; width: 100%; margin-left: auto; margin-right: auto;">
+<p1 class = "child_container_mascot_headerfont" style = "color: white;"> Our Mascot</p1>
+</div>
+<div onclick = "window.open('https://youtu.be/Lt_AisElt8s?t=454')" class = "child_container_mascot_boundingbox" style="cursor: pointer;">
+</div>  
+<div class = "mascot_text_style_container">
+<p1 class = "mascot_text_style"> A corgie named Queen </p1>
+<br>
+<br>
+<p1 class = "mascot_text_style"> a gender <span style="font-weight: 800;">non-binary</span> dog.</p1>
+</div>    
+</div>    
+</div>
+<!-- End of Div 4 --> <!-- Our Mascot -->
 </section>
-<!-- Page 3 -->
 
-<!-- Page 4 -->
 <section>
-<div class = "parent_container_WIQC" id = "WIQC">
-<span class = "span_WIQC_shift"></span>
-<h3 class = "WIQC_header">What is Quantum Computing?</h3>
-<span class = "span_WIQC_shift"></span>
+<!-- Start of Div 5 --> <!-- What is Quantum Computing? -->
+<div class = "parent_container_WIQC">
+<div class = "line_of_separation_solid" style="margin-top: 0;"></div>
 <div class = "child_container_WIQC">
-<div class = "container_WIQC_gifs">
+<div id = "WIQC_shortcut" class = "child_container_WIQC_headerfont">
+<p1> What is Quantum Computing? </p1>
+</div>
+<div class = "grandchild_container_WIQC">
+<div class = "container_WIQC_mp4">
 
 <div class = "container_WIQC_textbox">
-<p1 class = "WIQC_textbox_style">Quantum computing is a deviation from the classical computational techniques we've become accustomed to, otherwise known as binary, or the 1's and 0's your computer reads whenever you type a letter on the screen. When you press a key on your keyboard,<img class = "WIQC_image_1" src ="https://i.imgur.com/D6XQH3L.gif" alt = "Quantum Gif 1"> an encoded electrical signal is transmitted from the keyboard to your computer's processor; the signal is then decoded into raw 1's and 0's to induce a command,<img class = "WIQC_image_3" src ="https://i.imgur.com/s3nbrHb.gif"
-alt = "Quantum Gif 3"> that command is then translated into the material you see on your monitor. Lengthy explanations aside, as you've witnessed previously, Quantum computers are exponentially more powerful than any regular computer you could possibly dream up, this is solely due to the fact that they follow Quantum physics, which essentially means that binary is rendered obsolete by an entirely different playing field's standards. Quantum computers use a little something called qubits.</p1>
-<br><br>  
-<p1 class = "WIQC_textbox_style"><span class = "second_paragraph_WIQC">Qubits are the bread and butter of quantum computing; being the sole reasoning behind the exponential performance leap generated by this technological pariah because of the physical principal with which they are associated with, known as superposition. <img class = "WIQC_image_2" src="https://i.imgur.com/vlyyF14.gif" alt = "Quantum Gif 2">Superposition is otherwise known as the conjoined natural states of an object occuring at the same time. Say a cat was falling off a building in a fetal-esque position, but when it lands it goes prone, basically with superposition that cat assumes both of those positions in time at the same instance, thus defying what most normal humans have come to know as real world physics. Since a qubit can be both a one and a zero this results in more calculations being done in a smaller package, as well as less power consumption necessary to switch 1's to 0's and vice versa. All in all, qubits are the quintessential element of quantum physics; although we are still in the infantile stages of quantum computational techniques and application, the race to the future definitely looks promising, but it doesn't come without its hurdles.</p1></span>
+<p1 class = "WIQC_textbox_style">Quantum computing is a deviation from the classical computational techniques we've become accustomed to, otherwise known as binary, or the 1's and 0's your computer reads whenever you type a letter on the screen. When you press a key on your keyboard,<br><br><video class = "WIQC_image" autoplay muted playsinline loop id="WIQC_Vid1">
+<source src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Other+Assets+/Videos/Quantumvid_3.mp4" type="video/mp4" alt = "Quantum_vid_1">
+</video><br><br> an encoded electrical signal is transmitted from the keyboard to your computer's processor; the signal is then decoded into raw 1's and 0's to induce a command,
+<br><br><video class = "WIQC_image" autoplay muted playsinline loop id="WIQC_Vid2">
+<source src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Other+Assets+/Videos/Quantumvid_1.mp4" type="video/mp4" alt = "Quantum_vid_2">
+</video><br><br> that command is then translated into the material you see on your monitor. Lengthy explanations aside, as you've witnessed previously, Quantum computers are exponentially more powerful than any regular computer you could possibly dream up, this is solely due to the fact that they follow Quantum physics, which essentially means that binary is rendered obsolete by an entirely different playing field's standards. Quantum computers use a little something called qubits.</p1>
 <br><br>
-<br><br>
+<div class = "line_of_separation_solid"></div>
+<p1 class = "WIQC_textbox_style">Qubits are the bread and butter of quantum computing; being the sole reasoning behind the exponential performance leap generated by this technological pariah because of the physical principal with which they are associated with, known as superposition. <br><br><video class = "WIQC_image" autoplay muted playsinline loop id="WIQC_Vid3">
+<source src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Other+Assets+/Videos/Quantumvid_2.mp4" type="video/mp4" alt = "Quantum_vid_3">
+</video><br><br> Superposition is otherwise known as the conjoined natural states of an object occuring at the same time. Say a cat was falling off a building in a fetal-esque position, but when it lands it goes prone, basically with superposition that cat assumes both of those positions in time at the same instance, thus defying what most normal humans have come to know as real world physics. Since a qubit can be both a one and a zero this results in more calculations being done in a smaller package, as well as less power consumption necessary to switch 1's to 0's and vice versa. All in all, qubits are the quintessential element of quantum physics; although we are still in the infantile stages of quantum computational techniques and application, the race to the future definitely looks promising, but it doesn't come without its hurdles.</p1>
+<div class = "line_of_separation_solid"></div>
 <p1 class = "WIQC_textbox_style_2"> -Justin C</p1>
-<br><br>
-<span class = "span_WIQC_shift"></span>
-<a href = "https://www.youtube.com/watch?v=JhHMJCUmq28" target ="_blank"><p1 class="WIQC_textbox_KV">Click for a Video on Quantum</p1></a>
 </div>
 </div>
 </div>
+</div>
+</div>
+<!-- End of Div 5 --> <!-- What is Quantum Computing? -->
 </section>
-<!-- Page 4 -->
-
-<!-- Page 5 -->
 <section>
+<!-- Start of Div 6 --> <!-- Inside look at a Quantum Computer -->
+<div class = "parent_container_INQC">
+<div class = "line_of_separation_solid" style="margin-top: 0;"></div>
+<div class = "child_container_INQC">
+<div id = "INQC_shortcut" class = "child_container_INQC_headerfont">
+<p1> Inside look at a Quantum Computer </p1>
+</div>
+<div class = "grandchild_container_INQC">
+<a href="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Image+Assets+/Quantumcomputer_diagram.jpeg" target ="_blank">
+<img class = "grandchild_container_INQC_Image" src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Image+Assets+/Quantumcomputer_diagram.jpeg" alt = "Inside_QC" title = "The belly of the beast">
+</a>  
+<div class = "child_container_INQC_bottomtext">
+<p1> -Press the image to open it up in a new tab- </p1>
+</div>
+</div>
+</div>
+</div>
+<!-- End of Div 6 --> <!-- Inside look at a Quantum Computer -->
+</section>
+<section>
+<!-- Start of Div 7 --> <!-- Quantum Papers -->
 <div class = "parent_container_sqp">
 <img src ="https://i.imgur.com/HATH0jB.png" alt = "Atomic Orbitals symbol" class = "QP_img_static";>
+<br>
 <p1 class = "QP_text_1">Quantum Papers</p1><br><br><br><br>
 <p1 class = "QP_text_2">By Shwetha Jayaraj </p1><br><br>
-<img src ="https://i.imgur.com/jZvA1AK.gif" alt = "May the force be with you" class = "QP_image_gif">
+<video class = "QP_image_gif" autoplay muted playsinline loop id="WIQC_Vid3">
+<source src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Other+Assets+/Videos/mp4_of_Yoda_This_Is.mp4" type="video/mp4" alt = "May the force be with you">
+</video>
 <br><br><p1 class = "QP_text_3_quote"> | "We are in the universe and the universe is in us." - Neil Degrasse Tyson </p1><br><br>
 <div class = "QP_Container_main">
 <p1 class = "QP_text_4">On the quest to learning more about the universe and improving humanity through scientific knowledge, I'll be accumulating notes and research on quantum computing here. I'll try to cover an ongoing knowledge base of quantum development, a history of what has already transpired to lead us to the exciting times in scientific discovery we have now, as well as the trials of quantum computing we have ahead.</p1><br><br>
 <p1 class = "QP_text_4">Coming from a computer science background, I will ultimately be interested in programming applications effectively using quantum computation methods to optimize a plethora of issues in our society. </p1>
 </div>
 <div class = "QP_Container_Sub">
-<a href = "https://www.notion.so/D-Wave-s-2019-Recap-a1fe36f9d3bc4ee6b2044e51b78e7e32" target ="_blank"><span style = "background-color: #fddd3c;"><img src = "https://i.imgur.com/ZEiOKgL.png" alt = "Wave Emoji"  class = "QP_sub_Container_style"><p1 class = "QP_text_5">D-Wave's 2019 Recap</p1></span></a><br><br>
-<a href="https://www.notion.so/Menten-AI-6efaacbaea83459fafe1254649b82b1f" target ="_blank"><span style = "background-color: #fddd3c;"><img src = "https://i.imgur.com/hOb3rV0.png" alt = "DNA Emoji" class = "QP_sub_Container_style"><p1 class = "QP_text_5">Menten AI</p1></span></a><br><br>
-<a href="https://www.notion.so/Interesting-Concepts-55d4dadbe27b44ac8566267204a32bf3" target ="_blank"><span style = "background-color: #fddd3c;"><img src = "https://i.imgur.com/BXFgGcc.png" alt = "Spade Emoji" class = "QP_sub_Container_style"><p1 class = "QP_text_5">Interesting Concepts</p1></span></a>
+<a href = "https://www.notion.so/D-Wave-s-2019-Recap-a1fe36f9d3bc4ee6b2044e51b78e7e32" target ="_blank"><span style = "background-color: #fddd3c;"><img src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Image+Assets+/Wave_emoji.png" alt = "Wave Emoji"  class = "QP_sub_Container_style"><p1 class = "QP_text_5">D-Wave's 2019 Recap</p1></span></a><br><br>
+<a href="https://www.notion.so/Menten-AI-6efaacbaea83459fafe1254649b82b1f" target ="_blank"><span style = "background-color: #9ceb00 ;"><img src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Image+Assets+/DNA_emoji.png" class = "QP_sub_Container_style"><p1 class = "QP_text_5">Menten AI</p1></span></a><br><br>
+<a href="https://www.notion.so/Interesting-Concepts-55d4dadbe27b44ac8566267204a32bf3" target ="_blank"><span style = "background-color: #42f5d1;"><img src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Image+Assets+/Spade_emoji.png" alt = "Spade Emoji" class = "QP_sub_Container_style"><p1 class = "QP_text_5">Interesting Concepts</p1></span></a>
 </div>
 </div> 
+<!-- End of Div 7 --> <!-- Quantum Papers -->
 </section>
-<!-- Page 5 -->
 
-<!-- Page 6 -->
 <section>
-<div class = "parent_container_insideQC">
-<a href = "https://i.imgur.com/ZXM05xR.jpg" target="_blank">
-<img src ="https://i.imgur.com/ZXM05xR.jpg" alt = "Inside a Quantum Computer" class = "insideQC_image"></a>
-</div>    
-</section>
-<!-- Page 6 -->
+<!-- Start of Div 8 --> <!-- Scientific Videos -->
+<div class = "parent_container_Queencollection">
+<div class = "Queencollection_child_container" id = "QC_Vids">
+<div class = "Queencollection_child_header">
+<p1 class = "Queencollection_child_header_text_1"> Queen's Collection </p1>
+</div>
+<div class = "Queencollection_child_header2">
+<p1 class = "Queencollection_child_header_text_2"> Run around with Queen as our beloved corgie attempts to gather quantum data using the best machine learning it can given the times!</p1>
+</div>
+<div class = "Queencollection_child_body">
+<div class = "vid-wrapper">
+<a href="https://www.youtube-nocookie.com/embed/-ZNEzzDcllU" target="_blank" id= "myiFramelink" style = "text-decoration: none;
+color: inherit;"><img id = "myiFrame" class = "vid-size" src="https://img.youtube.com/vi/-ZNEzzDcllU/0.jpg";><i id = "play_button" class="play-btn fa fa-youtube-play fa-3x" aria-hidden="true"></i></a></div>
+</div>
+<img class = "Corgi_clicker" src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Other+Assets+/Gifs/Corgi_clickin.gif" alt="Corgi_clickin" title = "Queen just Vibing">
+</div>
+<div class = "line_of_separation_solid" style="margin-top: 0;"></div>
+</div>
+<!-- Start of Div 8 --> <!-- Scientific Videos -->
+</section>    
 
-<!-- Page 7 -->
 <section>
+<!-- Start of Div 9 --> <!-- The Sky is the Limit -->
 <div class = "parent_container_SITL"> 
+<div class = "SITL_header_container1">
+<p1 class = "SITL_title_header1"> Where to next?</p1>
+</div>
 <div class = "container_white_box">
 <p1 class = "SITL_header_text">The sky is the limit</p1>
 <br><br><br><br>
-<p1 class = "SITL_white_box_text"> Quantum computing is predicted to be the next trillion dollar industry, with large stakes in the medical, financial, and scientific fields already in the works. Here we have a computational pariah, an instrument that can lead humanity to new heights, a device that can calculate something that would take a traditional computer until the heat death of the universe to calculate, in mere minutes. Everybody wants a piece of the pie, but is the pie really as sweet as it seems?</p1><br><br>
+<p1 class = "SITL_white_box_text"> Quantum computing is predicted to become the next trillion dollar industry, with large stakes in the medical, financial, and scientific fields already in the works. Here we have a computational pariah, an instrument that can lead humanity to new heights, a device that can calculate something that would take a traditional computer until the heat death of the universe to calculate, in mere minutes. Everybody wants a piece of the pie, but is the pie really as sweet as it seems?</p1><br><br>
 <p1 class = "SITL_white_box_text">Join us on our journey, and we may all find out if quantum truly is the final frontier for humanity.</p1>
 </div>
+<div class = "line_of_separation_solid" style="margin-bottom: 0;"></div>
 </div>
-</section>    
-<!-- Page 7 -->
+<!-- End of Div 9 --> <!-- The Sky is the limit -->
+</section>
 
-<!-- Page 8 -->    
+<section>
+<!-- Start of Div 10 --> <!-- Stay tuned -->
 <section>
 <div class = "parent_container_thanks">
+<video autoplay muted playsinline loop id="Bottom_Hexagons">
+<source src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Other+Assets+/Videos/hexagons_in_motion.mp4" type="video/mp4">
+</video>
 <div class = "thanks_white_box_container">
 <p1 class = "thanks_white_box_text">Thanks for checking us out, and be sure to stay tuned for future updates!</p1>
 </div>
-<img src = "https://i.imgur.com/WGJq8MP.png" class = "QRG_logo_White_box">
+<img src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Image+Assets+/QRG_logo_white.png" class = "QRG_logo_White_box">
+<div onclick = "location.href='#top_header'" class = "back_to_top_button"><p1>Back to Top </p1></div>
 </div> 
-</section>        
-<!-- Page 8 -->     
+</section>    
+<!-- End of Div 10 --> <!-- Stay tuned -->
+</section>
 
-<!-- end of main pages -->
-<!-- footer & scroll progress bar -->
-<div class="footer" id = "footer_id">
-<div class="footer_inner">
-<p class="footer_text">Website design by: Justin Cook</p>
-</div>
+<section>
+<!-- Start of Footer Div --> <!-- Includes site map, contact information and legal documents -->
+<footer class="footer" id = "footer_id">
 <div class="progress-container">
 <div class="progress-bar" id="myBar">
 </div>
 </div>
-</div>  
-<!-- end of footer & scroll progress bar -->
-<!-- end of main pages -->
-
-<!-- side nav menu -->
-<img src = "https://i.imgur.com/6Dd7amu.png" onclick="openNav_1()" class = "side_nav_tab_mobile" alt = "Open button mobile">
+<div class="footer_inner">
+<p1 class="footer_text">Website design by: Justin Cook</p1>
+<br>
 </div>
-<div class = "side_nav_tab_desktop"></div>
-<div class = "side_nav_parent_container" id = "side_nav">
-<a href="javascript:void(0)" onclick="closeNav()">
-<img class = "side_nav_exit_button" src = "https://i.imgur.com/JPSibyg.gif" id = "closebutton_img" alt = "close button"></a>
-<img class = "side_nav_parent_img" src = "https://i.imgur.com/jz43gdy.gif" alt = "Good doggo">
-<div class = "side_nav_child_container">
-<div class = "side_nav_child_header">
-<h3 class = "side_nav_child_header_text_1"> Queen's Collection </h3>
-<span class = "span_shift_side_nav"></span>
-<p1 class = "side_nav_child_header_text_2"> Run around with Queen as our beloved corgie attempts to gather quantum data using the best machine learning it can given the times!</p1>
-</div>
-<div class = "side_nav_child_body">
-<div class = "vid-wrapper">
-<a href="https://www.youtube-nocookie.com/embed/-ZNEzzDcllU" target="_blank" id= "myiFramelink" style = "text-decoration: none;
-color: inherit;"><img id = "myiFrame" class = "vid-size" src="https://img.youtube.com/vi/-ZNEzzDcllU/0.jpg";><i id = "play_button" class="play-btn fa fa-youtube-play fa-3x" aria-hidden="true"></i></a></div>
-<br><br>
-<a href="mailto:quantamnyc@nyit.edu""#contact"><p1 class = "hyper_link_styling" title = "Shoot us an Email">Contact Us</p1></a>
-<a href="https://www.nyit.edu/""#NYIT" target ="_blank"><p1 class = "hyper_link_styling" title = "School Pride!">NYIT</p1></a>
-<a href="https://www.ibm.com/quantum-computing/" target ="_blank"><p1 class = "hyper_link_styling" title = "The second top dog in Quantum Computing">IBM</p1></a>
-<a href="https://www.dwavesys.com/" target ="_blank"><p1 class = "hyper_link_styling" title = "The first top dog in Quantum Computing">D-Wave</p1></a>
-<br><br>
-<a href="https://research.google/teams/applied-science/quantum/" target ="_blank"><p1 class = "hyper_link_styling" title = "Google's take on the Quantum leap">Google</p1></a>
-<a href="https://www.microsoft.com/en-us/quantum" target ="_blank"><p1 class = "hyper_link_styling" title = "Microsoft's take on the Quantum leap">Microsoft</p1></a>
-<a href="https://www.intel.com/content/www/us/en/research/quantum-computing.html" target ="_blank"><p1 class = "hyper_link_styling" title = "Intel's take on the Quantum leap">Intel</p1></a>
-</div>
-</div>
-</div>
-<!-- end of side nav menu -->    
-
-<!-- start of top nav menu -->
-<!-- top navigation bar config, links, classes, naming schemes, &divs --> 
-<div class="parent_container_top_nav">
-<a href="https://quantumgame.io/""#QRG_LOGO" target ="_blank" class="active"><img src="https://i.imgur.com/WGJq8MP.png" alt="QRG Logo" class = "QRG_Logo" title = "Click for a surprise"></a>
-<a onClick="location.href='#WIQC'""#about"><p1 class = "top-navi-text" title = "Just cut to the chase">About</p1></a>
-<a onClick="location.href='#contact_section'" href="mailto:quantamnyc@nyit.edu""#contact" title = "Shoot us an Email"><p1 class = "top-navi-text">Contact Us</p1></a>
-<a href="https://www.nyit.edu/" target ="_blank" "#NYIT" ><p1 class = "top-navi-text" title = "School Pride!">NYIT</p1></a>
-<a href="https://www.ibm.com/quantum-computing/" target ="_blank"><p1 class = "top-navi-text" title = "The second top dog in Quantum Computing">IBM</p1></a>
-<a href="https://www.dwavesys.com/" target ="_blank"><p1 class = "top-navi-text" title = "The first top dog in Quantum Computing">D-Wave</p1></a>
-<a href="https://research.google/teams/applied-science/quantum/" target ="_blank"><p1 class = "top-navi-text" title = "Google's take on the Quantum leap">Google</p1></a>
-<a href="https://www.microsoft.com/en-us/quantum" target ="_blank"><p1 class = "top-navi-text" title = "Microsoft's take on the Quantum leap">Microsoft</p1></a>
-<a href="https://www.intel.com/content/www/us/en/research/quantum-computing.html" target ="_blank"><p1 class = "top-navi-text" title = "Intel's take on the Quantum leap">Intel</p1></a>
-<a href="https://www.w3schools.com/html/default.asp""#Learn how to program" target ="_blank"><p1 class = "top-navi-text" title = "Use W3Schools' amazing content to get ahead of the competition">Learn how to program</p1></a>
-<span style="font-size:15px;cursor:pointer" onclick="decide()"><img src="https://i.imgur.com/bqn2DQc.png" id="arrowhead" class = "arrow_boi" title = "Menu"></span>
-</div>
-<!-- end of top nav menu -->
+</footer>  
+<!-- End of Footer Div --> <!-- Includes site map, contact information and legal documents -->
+</section>
 
 <!-- start of bottom nav menu -->
 <div class="parent_container_bottom_nav" id = "bottom_nav">
-<a href="https://github.com/theqrg" target ="_blank" "#GitHub"><img src="https://i.imgur.com/anSVIqP.png" title="Look to the future through our GitHub" class = "bottom_nav_icons" alt ="Git it!"></a>
-<a href="https://discord.gg/9qqmrzc" target ="_blank" "#Discord"><img src="https://i.imgur.com/5E6bKdb.png" title="Join the talk over on our Discord server" class = "bottom_nav_icons" alt ="Discord bot"></a>
-<a href="https://instagram.com/theqrg?igshid=tjqyqr0xz583" target ="_blank" "#Instagram"><img src="https://i.imgur.com/zWrBet4.png" title="Follow our Instagram!" class = "bottom_nav_icons" alt ="IG"></a>
-<a href="https://twitter.com/theqrg" target ="_blank" "#Twitter"><img src="https://i.imgur.com/Bav3CpK.png" title="See the hottest news on our Twitter" class = "bottom_nav_icons" alt ="Tweet tweet"></a>
+<a href="https://github.com/theqrg" target ="_blank" "#GitHub"><img src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/Social+Media/Githublogo_transparent.svg" title="Look to the future through our GitHub" class = "bottom_nav_icons" alt ="Git it!"></a>
+<a href="https://discord.gg/ZGSHgGr" target ="_blank" "#Discord"><img src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/Social+Media/Discordlogo_transparent.svg" title="Join the talk over on our Discord server" class = "bottom_nav_icons" alt ="Discord bot"></a>
+<a href="https://instagram.com/theqrg?igshid=tjqyqr0xz583" target ="_blank" "#Instagram"><img src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/Social+Media/Instagramlogo_transparent.svg" title="Follow our Instagram!" class = "bottom_nav_icons" alt ="IG"></a>
+<a href="https://twitter.com/theqrg" target ="_blank" "#Twitter"><img src="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/Social+Media/Twitterlogo_transparent.svg" title="See the hottest news on our Twitter" class = "bottom_nav_icons" alt ="Tweet tweet"></a>
 </div>
-<!-- end of bottom nav menu -->
+<!-- end of bottom nav menu -->  
 
-<!-- Bug reporting Doggo the goodest of bug reporters -->
-<div class = "report_a_bug">
-<a href="javascript:void(0)" onClick="location.href='mailto:jcook03266@gmail.com'" style = "background-color: transparent;"><img onclick ="play()" src="https://i.imgur.com/kKmE9tz.png" class= "bug_boi"></a>
+<section>
+<!-- Mini navigation shortcut bar for homepage -->
+<div class = "mini_icon_navbar_shortcuts">
+<div class = "bounding_mininavbar_iconbar">
+<div class = "mini_icon_navbar_icons" onclick = "location.href='#Aboutussectionpointer'">
+<image class = "mini_icon_navbar_icon_image" style = "height: 1.4vh; width: 7.5vh;"onclick = "location.href='#Aboutussectionpointer'"alt = "Eboard_svg" title = "E-Board" src ="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/QRG_Eboard_text.svg" alt = "Eboard_text">
+</div> 
 </div>
-<audio id = "audio">
-<source src="https://hostjjc.imfast.io/dog_bark_JC.mp3" type="audio/mp3">
-</audio>
-<!-- end of Bug reporting Doggo the goodest of bug reporters -->
-<!-- end of HTML sheet -->
+<div class = "bounding_mininavbar_iconbar">
+<div class = "mini_icon_navbar_icons" onclick = "location.href='#WIQC_shortcut'">
+<image class = "mini_icon_navbar_icon_image" style = "height: 3vh; width: 6vh;"onclick = "location.href='#WIQC_shortcut'"alt = "QC_svg" title = "What is Quantum computing?" src ="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/QRG_QC_text.svg" alt = "QC_text">
+</div> 
+</div>
+<div class = "bounding_mininavbar_iconbar">
+<div class = "mini_icon_navbar_icons" onclick = "location.href='#QC_Vids'">
+<image class = "mini_icon_navbar_icon_image" style = "height: 1.5vh; width: 7.5vh;"onclick = "location.href='#QC_Vids'"alt = "Videos_svg" title = "Scientific Videos" src ="https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/QRG_videos_text.svg" alt = "Videos_text">
+</div>  
+</div>
+</div>
+<!-- Mini navigation shortcut bar for homepage -->
+</section>
+</section>
 
-<!-- start of CSS -->   
+<section>
+<!-- Div for side Nav bar --><!-- Provides the links shown at the main nav bar on the homepage -->
+<div title = "Open" class = "sidenav_open_button" id = "opennavbutton" onclick="opensidenav(this)"><!-- the open button --> <!-- three bars that animate onclick -->
+<div class="bar1"></div>
+<div class="bar2"></div>
+<div class="bar3"></div>   
+</div>
+<div class = "parent_container_side_navbar_QRG"> <!-- contains all of the containers -->
+<div class = "child_container_side_navbar_QRG" id = "sidenavbar_universal"> <!-- background -->
+<div class = "grandchild_container_side_navbar_QRG"> <!-- contains the exit button and log in button / google profile image -->
+<div title = "Close" class = "sidenav_exit_button" onclick="closesidenav(this)"> <!-- Exit button --> <!-- closes the side nav on click --> 
+<div class="bar4"></div>
+<div class="bar5"></div>
+<div class="bar6"></div>  
+</div> <!-- the exit button --> <!-- three bars that animate onclick -->
+<div class = "greatgrandchild_container_side_navbar_QRG"> <!-- contains all the links --> 
+<a onclick="closesidenav(this)" href = "#"><p1 class = "greatgrandchild_text2_side_navbar_QRG"> Home </p1></a>
+<br>
+<p1 onclick = "location.href='#WIQC_shortcut'; closesidenav(this);" class = "greatgrandchild_text_side_navbar_QRG"> About </p1><br>
+<a href="mailto:quantamnyc@nyit.edu"><p1 class = "greatgrandchild_text3_side_navbar_QRG"> Contact Us </p1></a>
+<br>
+<a href = "https://www.dwavesys.com/" target ="_blank"><p1 class = "greatgrandchild_text_side_navbar_QRG">D-Wave</p1></a><br>
+<a href = "https://www.ibm.com/quantum-computing/" target ="_blank"><p1 class = "greatgrandchild_text_side_navbar_QRG">IBM</p1></a><br>
+<a href = "https://research.google/teams/applied-science/quantum/" target ="_blank"><p1 class = "greatgrandchild_text_side_navbar_QRG">Google</p1></a><br>
+<a href = "https://www.microsoft.com/en-us/quantum" target ="_blank"><p1 class = "greatgrandchild_text_side_navbar_QRG">Microsoft</p1></a><br>
+<a href = "https://www.nvidia.com/en-us/industries/supercomputing/" target ="_blank"><p1 class = "greatgrandchild_text_side_navbar_QRG">Nvidia</p1></a><br>
+<p1 onclick = "location.href='#QC_Vids'; closesidenav(this);" class = "greatgrandchild_text_side_navbar_QRG">Quantum News</p1><br>
+<a href = "https://www.nyit.edu/" target ="_blank"><p1 class = "greatgrandchild_text_side_navbar_QRG">NYIT</p1></a><br>
+<br><br>
+<div class = "sidenav_QRG_logo_image">
+<img src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/QRG_logo_loadingscreen_vector.svg" alt = "QRG_Logo" 
+title = "Keep calm and quantum on">
+</div>
+<br>
+<a href="mailto:jcook03266@gmail.com" target ="_blank"><p1 class = "greatgrandchild_text_side_navbar_QRG">Report a bug</p1></a><br>
+</div>
+</div>
+</div>   
+</div>
+<!-- Div for side Nav bar -->
+</section>
+<!-- End of main home page --> 
+
+<!-- Style sheet for the home page -->
 <style>
-QRG_Source_CSS.css
-/* page specific styling */
-/* first div styling*/
-.parent_Container_1{
-background-color: black;
+QRG.css
+/* Start of loading screen styling */
+.parent_container_loading_screen{
+overflow: hidden;
+display: grid;
+position: fixed;
+z-index: 4;
 width: 100%;
-display: block;
-position: relative;
-}
-
-.background_picture{
-background-color: black;
-background-image: url('https://i.imgur.com/Idoqc4v.gif');
-background-position: center;
-background-repeat: repeat;
-position: relative;
-display: block;
-border-style: solid;
-border-width: 1px;
-border-color: white;
-top: 0px;
-width: 100%;   
-}
-
-/* contains the text displayed on the screen 
-more specifically multiple text boxes with their own unique 
-styling depicted below */
-.child_text_box_container_center{
-padding-top: 30px;
-background-color: transparent;
-background-position: center;
-background-repeat: no-repeat;
-position: relative;
-height: auto;
-text-align: center;
-max-width: 70%;
-margin: auto;
-}
-
-/* Styling properties for the text boxes inside the first parent div */
-.text-box-text_first{
-text-align: center;
-font-size: 12px;  
-color: white;
-font-weight: 500;   
-}
-.text-box-text1{
-text-align: center;
-font-size: 60px;  
-color:#fddd3c;
-font-weight: 500;
-}
-.text-box-text2{
-font-size: 35px; 
-background-color: white;
-border-radius: 25px;
-border-color: black; 
-border-style: groove;  
-color: black;
-font-weight: 500;
-}
-.text-box-text3{
-font-size: 25px; 
-color: white;
-background-color: black;
-font-weight: 500;
-}
-.text-box-text4{
-font-size: 20px; 
-font-weight: 500;
-background-color: black;
-color:#fddd3c;
-}
-.text-box-text5{
-font-size: 40px; 
-color: white;
-font-weight: 500;       
-}
-.span_border{
-border-radius: 25px;
-border-color: white; 
-border-style: solid;
-border-width: 2px;
-background-color: black;      
-}
-.QRG_Logo_container{
-max-width:100%;
-height:auto;    
-}
-/* responsible for styling the texts used for the type writing 
-appending effect */
-.typewrite{
-color: #fddd3c;
-line-height: 32px;
-font-family: 'auto_Bahn', sans-serif;
-font-weight: 300;
-font-size: 50px;
-text-decoration: none;
-}
-/* Very special case where the max width is 966 to prevent weird text border clipping */
-@media screen and (max-width: 966px) {    
-.text-box-text1{
-text-align: center;
-font-size: 40px;  
-color:#fddd3c;
-font-weight: 500;
-}
-.text-box-text2{
-font-size: 25px; 
-background-color: white;
-border-radius: 25px;
-border-color: black; 
-border-style: groove;  
-color: black;
-font-weight: 500;
-}
-}
-/* Special case styling for tablets and mobile
-phones turned horizontally */
-@media screen and (max-width: 830px) {
-.child_text_box_container_center{
-padding-top: 30px;
-background-color: transparent;
-background-position: center;
-background-repeat: no-repeat;
-position: relative;
-height: auto;
-text-align: center;
-max-width: 100%;
-margin: auto;
-}
+height: 100%;
 } 
-@media screen and (max-width: 975px) {
-.typewrite{
-font-size: 30px;
-}
-}
-/* for mobile devices with a max width of 420px 
-anything realistically over the width of an iPhone 
-"plus" model is out of the equation and will use the standard desktop styling
-tablets are fine and don't need this'*/
-@media screen and (max-width: 420px) {
-.parent_Container_1{
-background-color: black;
+.child_container_loading_screen{
+overflow: hidden;
+background-color: white;
+height: 100%;
 width: 100%;
+position: fixed;
+z-index: 20;
+top: 0;
+left: 0;
+border-color: white;
+border-width: 1px;
+border-style: solid;
+min-height: 100%;
+animation: fadeOut 2s linear forwards;
+animation-delay: 3s;
+display: flex;
+align-items: center;
+justify-content: center; 
+}  
+.QRG_Logo_panel_shudder_left{
+width: 50%;
+height: 100%;
+background-color: black;
+margin-left: 50%;
+z-index: 3;
+position: absolute;
+-webkit-animation: loadingscreen_shudderevealanimation_left .5s linear forwards;
+animation: loadingscreen_shudderevealanimation_left .5s linear forwards;
+}
+.child_container_loading_image2{
+display: block;  
+height: 15vh;
+z-index: 1;
+position: absolute;
+}
+.child_container_loading_image3{
+display: block;  
+height: 15vh;
+z-index: 1;
+position: absolute;  
+margin-top: 40vh;
+-webkit-animation: loadingscreen_atomic_loading_animation 3s linear forwards;
+animation: loadingscreen_atomic_loading_animation 3s linear forwards;
+border-color: black transparent black;
+border-style: dotted;
+border-radius: 50%;
+}
+.child_container_loading_image4{
+display: block;  
+background-color: white;
+height: 60vh;
+width: 60vh;
+z-index: 0;
+position: absolute;  
+-webkit-animation: loadingscreen_atomic_loading_animation 3s linear forwards;
+animation: loadingscreen_atomic_loading_animation 3s linear forwards;
+border-color: black transparent black;
+border-style: dotted;
+border-radius: 50%;
+}
+.child_container_loading_image5{
+display: block;  
+height: 2vh;
+z-index: 1;
+position: absolute;  
+margin-top: 70vh;
+}
+.QRG_Logo_panel_shudder_logooverlay{
+width: 100%;
+height: 100%;
+background-color: white;   
+z-index: 2;
+position: absolute;
+animation-delay: 1s;
+-webkit-animation: loadingscreen_shudderevealanimation_logooverlay .5s linear forwards;
+animation: loadingscreen_shudderevealanimation_logooverlay .5s linear forwards;
+}
+.QRG_Logo_panel_shudder_right{
+width: 50%;
+height: 100%;
+background-color: black;
+margin-right: 50%;      
+z-index: 3;
+position: absolute;
+-webkit-animation: loadingscreen_shudderevealanimation_right .5s linear forwards;
+animation: loadingscreen_shudderevealanimation_right .5s linear forwards;
+}
+    
+ 
+@media screen and (max-width: 450px) and (min-width: 300px) and (orientation: portrait) { 
+.child_container_loading_image2{
+height: 50px;
+position: absolute;
+}
+.child_container_loading_image3{
+height: 80px;
+width: 80px;
+margin-top: 100px;
+position: absolute;
+}
+.child_container_loading_image4{
+height: 300px;
+width: 300px;
+position: absolute;
+}
+.child_container_loading_image5{
+height: 100px;
+width: 100px;
+margin-top: 250px;
+position: absolute;
+}    
+}
+/* End of loading screen styling */
+
+/* Start of Div 1 styling */
+.parent_container_header{
+overflow: hidden;
+z-index: 1;
+}
+.child_container_header{
+overflow: hidden;
+background-color: black;
+display: inline-flex;
+float: right;
+width: 100%;
+height: 30px;
+left: 0;
+position: absolute;
+text-align: left;
+z-index: 1;
+top: -300px;
+transition: 7s;
+font-size: 20px;
+color: white;
+}
+.child_container_header_text{
+padding: 8px;
 display: block;
+cursor: default;
+}
+/* End of Div 1 styling */
+
+/* Start of Div 2 Styling */
+.parent_container_QRG_main{
+height: auto;
+width: 100%;
 position: relative;
 }
-
-.background_picture_right{
-background-color: black;
-background-position: right;
-background-repeat: no-repeat;
+.child_container_QRG_main{
+height: auto;
+width: 100%;
 position: relative;
-display: block;
-top: 0px;
-width: 100%;      
+border-left: 0;
+border-right: 0;
+text-align: center;
+z-index: 0;
+padding-top: 20vh;
+padding-bottom: 30vh;
+}
+#Homepage_Hexagons{
+position: absolute;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+}
+.child_container_QRG_logo{
+width: 30%;
+min-width: 30vh;
+max-width: 450px;
+opacity: 0;
+transition: 1s;
+padding-top: 10vh;
+padding-bottom: 2vh;
+transition: 1s;
+z-index: 1;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+right: 0;
+left: 0;
+margin-top: -20vh;
+}
+.child_container_QRG_logo:hover{
+transform: translateY(-30px);
+}    
+.child_container_loading_logoimage{
+display: block;  
+background-color: transparent;
+height: 50vh;
+width: 50vh;
+z-index: 0;
+position: absolute;  
+-webkit-animation: loadingscreen_radiushomepage_loading_animation 3s linear forwards infinite;
+animation: loadingscreen_radiushomepage_loading_animation 3s linear forwards infinite;
+border-color: black transparent black;
+border-style: dotted;
+border-radius: 50%;   
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+margin-top: -20Vh;
+min-height: 750px;
+min-width: 750px;
+}
+.child_container_loading_logoimage2{
+display: block;  
+background-color: black;
+height: 60vh;
+width: 60vh;
+z-index: 0;
+position: absolute;  
+-webkit-animation: loadingscreen_radiushomepage_loading_animation 3s linear forwards infinite;
+animation: loadingscreen_radiushomepage_loading_animation 3s linear forwards infinite;
+border-color: transparent black transparent;
+border-style: dotted;
+border-radius: 50%;   
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+margin-top: -20Vh;
+min-height: 750px;
+min-width: 750px;
+}
+.child_container_loading_logoimage3{
+display: block;  
+background-color: white;
+height: 55vh;
+width: 55vh;
+z-index: 0;
+position: absolute;  
+-webkit-animation: loadingscreen_radiushomepage_loading_animation 3s linear forwards infinite;
+animation: loadingscreen_radiushomepage_loading_animation 3s linear forwards infinite;
+border-color: transparent black;
+border-style: solid;
+border-radius: 50%;   
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+margin-top: -20Vh;
+min-height: 700px;
+min-width: 700px;
+}
+.child_container_loading_logoimage4{
+display: block;  
+background-color: transparent;
+height: 62vh;
+width: 62vh;
+z-index: 0;
+position: absolute;  
+-webkit-animation: loadingscreen_radiushomepage_loading_animation 3s linear forwards infinite;
+animation: loadingscreen_radiushomepage_loading_animation 3s linear forwards infinite;
+border-color: transparent black transparent;
+border-style: dotted;
+border-radius: 50%;   
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+margin-top: -20Vh;
+min-height: 800px;
+min-width: 800px;
 }
 
 .mobile_header_container{
 display: block;
 width: 100%;
-background-image: url('https://i.imgur.com/Idoqc4v.gif');
-background-repeat: repeat;
-background-size: contain;
-background-color: black;
+background-color: transparent;
 height: auto;
 position: relative;
 text-align: center;
+padding-bottom: 20vh;
 }  
 
 .child_text_box_container_center{
@@ -529,134 +832,584 @@ border-width: 1px;
 font-size: 40px;  
 text-align: center;
 color: white;
-font-weight: 600;
-}
-    
-.span_shift{
-display: block;
-color: #fddd3c;
+font-weight: 500;
 }
 
-.span_border{
-border-radius: 1px;
-border-style: solid;
-border-color: white;
-border-width: 1px;
-font-size: 50px;
-}
-
-.text-box-text2{
-font-size: 17px; 
-background-color: white;
-border-radius: 25px;
-border-color: black; 
-border-style: groove;  
+/* responsible for styling the texts used for the type writing 
+appending effect */
+.typewrite{
 color: black;
-font-weight: 500;
+line-height: 32px;
+font-family: 'raleway', sans-serif;
+font-weight: 300;
+font-size: 50px;
+text-decoration: none;
+cursor: default;
 }
-.text-box-text3{
-font-size: 15px; 
-color: white;
-font-weight: 500;
+
+.QRG_welcometextbox{
+font-size: 30px;
+border-bottom-width: 1px;
+border-bottom-color: black;
+border-bottom-style: solid;
+position: absolute;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+top: 0;
+margin-top: 5vh;
+display: block;
+z-index: 1;
 }
-.text-box-text4{
-font-size: 14px; 
+.text-box-text_top-header{
+cursor:default;
+}
+.text-box-text2{
+font-size: 25px; 
+color: black;
+border-bottom-width: 1px;
+border-bottom-color: black;
+border-bottom-style: solid;
+transition: 1s;
+cursor: default;
+border-color: black;
+border-style: solid;
+border-radius: 25px;
+border-width: 1px;
+}
+.text-box-text2:hover{
+letter-spacing: 1px;
+}    
+.text-box-text5{
+font-size: 60px; 
+color: black;
+font-weight: 0;
+transition: 1s;
+cursor: default;
+}
+
+.text-box-text5:hover{
+letter-spacing: 1px;
+}    
+.Navbar_main_font_container{
+width:90%;
+margin-right: auto;
+margin-left: auto;
+background-color: black;
+padding-bottom: 20px;
+padding-top: 20px;
+opacity: 0;
+-webkit-animation: fadeIn 1s linear forwards;
+animation: fadeIn 1s linear forwards;
+animation-delay: .5s;
+box-shadow: 0 15px 8px 0 rgba(0,0,0,0.2);
+margin-top: 10vh;
+border-color: black;
+border-style: solid;
+border-radius: 5px;
+border-width: 1px;
+}
+.Navbar_main_font1{
+font-size: 25px;
 color: white;
-font-weight: 500;
+border-left: 2px solid white;
+padding-left: 10px;
+padding-right: 10px;
+opacity: 0;
+-webkit-animation: fadeIn 1s linear forwards;
+animation: fadeIn 1s linear forwards;
+animation-delay: 2s;
+cursor: pointer;
+transition: .5s;
+}
+.Navbar_main_font1:hover{
+color: lightgray;
+}
+.Navbar_main_font2{
+font-size: 25px;
+font-weight: 400;
+color: lightgray;
+padding-left: 10px;
+padding-right: 10px;
+opacity: 0;
+-webkit-animation: fadeIn 1s linear forwards;
+animation: fadeIn 1s linear forwards;
+animation-delay: 2s;
+cursor: pointer;
+}
+
+.child_container_header_image a:hover {
+background-color: gray;
+height: auto;
+color: lightgray;
+}
+/* Drop down menu styling for the homepage nav bar */
+/* The container <div> - needed to position the dropdown content */
+.dropdown_menu_container {
+display: inline-block;
+position: relative;
+height: auto;
+opacity: 0;
+-webkit-animation: fadeIn 1s linear forwards;
+animation: fadeIn 1s linear forwards;
+animation-delay: 2s;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content_container {
+display: none;
+position: absolute;
+background-color: black;
+min-width: 160px;
+margin-left: -40px;
+width: 200px;
+z-index: 1;
+}
+.dropdown-content_container2 {
+display: none;
+position: absolute;
+background-color: black;
+min-width: 160px;
+margin-left: -40px;
+width: 200px;
+z-index: 1;
+}
+.dropbtn {
+font-size: 25px;
+color: white;
+border-left: 2px solid white;
+padding-left: 10px;
+padding-right: 10px;
+cursor: pointer;
+}
+
+/* changes the color of the font to black whenever the user hovers over the element */
+.dropbtn:hover{
+color: lightgray;
+}
+
+/* Links inside the dropdown */
+.dropdown-content_container a {
+color: white;
+border-bottom: 1px solid white;
+padding: 3px 10px;
+text-decoration: none;
+font-weight: 400;
+font-size: 20px;
+display: block;
+}
+
+.dropdown-content_container2 a {
+color: white;
+border-bottom: 1px solid white;
+padding: 3px 10px;
+font-weight: 400;
+font-size: 20px;
+text-decoration: none;
+display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content_container a:hover {color: lightgray;} 
+.dropdown-content_container2 a:hover {color: lightgray;}
+
+/* Show the dropdown menu on hover */
+.dropdown_menu_container:hover .dropdown-content_container {display: block;}
+.dropdown_menu_container:hover .dropdown-content_container2 {display: block;}
+/* End of drop down menu styling */
+
+/* Styling for other devices */
+@media screen and (max-width: 450px) and (min-width: 300px) and (orientation: portrait) { 
+.parent_container_QRG_main{
+
+}
+.child_container_QRG_main{
+padding-bottom: 0;
+}
+
+.child_container_loading_logoimage{
+min-width:350px;
+width:350px;
+min-height:350px;
+height:350px;
+}
+.child_container_loading_logoimage2{
+min-width:330px;
+width:330px;
+min-height:330px;
+height:330px;
+}
+.child_container_loading_logoimage3{
+min-width:280px;
+width:280px;
+min-height:280px;
+height:280px;
+}
+.child_container_loading_logoimage4{
+min-width:280px;
+width:280px;
+min-height:280px;
+height:280px;
+}
+
+.Navbar_main_font_container{
+display: none;
+}
+.text-box-text2{
+font-size: 18px;
+background-color: white;
+}
+.text-box-text5{
+font-size: 30px; 
+}
+/* responsible for styling the texts used for the type writing 
+appending effect */
+.typewrite{
+font-size: 30px;
+}
+.typewriter_container{
+margin-top: 100px;  
+}
+
+.QRG_welcometextbox{
+font-size: 15px;
+background-color: black;
+color: white;
+}
+}    
+
+@media screen and (max-width: 850px) and (min-width: 300px) and (orientation: landscape) { 
+.child_container_loading_logoimage{
+min-width:650px;
+width:650px;
+min-height:650px;
+height:650px;
+}
+.child_container_loading_logoimage2{
+min-width:630px;
+width:630px;
+min-height:630px;
+height:630px;
+}
+.child_container_loading_logoimage3{
+min-width:580px;
+width:580px;
+min-height:580px;
+height:580px;
+}
+.child_container_loading_logoimage4{
+min-width:580px;
+width:580px;
+min-height:580px;
+height:580px;
+}
+.child_container_QRG_main{
+padding-bottom: 400px;
+}
+.Navbar_main_font_container{
+min-width: 100%;
+margin-top: 400px;
 }
 
 .text-box-text5{
-font-size: 30px; 
-color: white;
-font-weight: 500;       
+font-size: 50px; 
 }
-
-.QRG_Logo_Parent{
-border-style: solid;
-border-color: white;
-border-width: 1px;
-background-color: #fddd3c;
-max-width:100%;    
-}
-
-.QRG_Logo_container{
-max-width:50%;
-height:auto;    
-}
-}   
-
-@media screen and (max-width: 360px) {
-.text-box-text2{
-font-size: 12px; 
-background-color: white;
-border-radius: 25px;
-border-color: black; 
-border-style: groove;  
-color: black;
-font-weight: 500;
-}
-.text-box-text_first{
-font-size: 11px;   
-}
+/* responsible for styling the texts used for the type writing 
+appending effect */
 .typewrite{
-font-size: 25px;    
+font-size: 30px;
 }
+.typewriter_container{
+margin-top: 10px;  
 }
-/* End of first div styling */
 
-/* second div styling (e-board) */
-.e-board_parent_container{
-background-image: linear-gradient(-90deg, black, white);
-background-position: center;
-display: grid;
-background-repeat: repeat;
-border-color: black;
-border-style: solid;
-border-width: 1px;
-position: relative;
+.QRG_welcometextbox{
+margin-top: 50px;  
+font-size: 15px;
+background-color: black;
+color: white;
+}
+}    
+@media screen and (max-width: 320px) and (min-width: 320px) and (orientation: portrait) { 
+.parent_container_QRG_main{
+
+}
+.child_container_QRG_main{
+padding-bottom: 0;
+}
+
+.child_container_loading_logoimage{
+min-width:350px;
+width:350px;
+min-height:350px;
+height:350px;
+}
+.child_container_loading_logoimage2{
+min-width:330px;
+width:330px;
+min-height:330px;
+height:330px;
+}
+.child_container_loading_logoimage3{
+min-width:280px;
+width:280px;
+min-height:280px;
+height:280px;
+}
+.child_container_loading_logoimage4{
+min-width:280px;
+width:280px;
+min-height:280px;
+height:280px;
+}
+
+.Navbar_main_font_container{
+display: none;
+}
+.text-box-text2{
+font-size: 15px;
+background-color: white;
+}
+.text-box-text5{
+font-size: 30px; 
+}
+/* responsible for styling the texts used for the type writing 
+appending effect */
+.typewrite{
+font-size: 30px;
+}
+.typewriter_container{
+margin-top: 150px;  
+}
+
+.QRG_welcometextbox{
+font-size: 15px;
+background-color: black;
+color: white;
+}   
+} 
+@media screen and (max-width: 750px) and (min-width: 451px){ 
+.child_container_loading_logoimage{
+display: none;
+}
+.child_container_loading_logoimage2{
+display: none;
+}
+.child_container_loading_logoimage3{
+display: none;
+}
+.child_container_loading_logoimage4{
+display: none;
+}
+}
+/* End of Div 2 Styling */
+
+/* Start of Div 3 Styling */
+.parent_container_main-body{
 height: auto;
 width: 100%;
 }
-.e-board_header{
+.child_container_main-body{
+height: auto;
+width: 100%;
+text-align: center;
+opacity: 0;
+-webkit-animation: fadeIn 1s linear forwards;
+animation: fadeIn 1s linear forwards;
+animation-delay: 2s;
+}
+.grand_child_container_main-body{
 background-color: black;
-background-position: center;
+width: 100%;
+padding-top: 2vh;
+padding-bottom: 2vh;
+}
+.child_container_main-body_textheading{
+font-size: 80px;
+font-weight: 700;
+color: white;;
+letter-spacing: 5px;
+cursor: default;
+transition: .5s;
 border-color: white;
 border-style: solid;
+border-radius: 25px;
 border-width: 1px;
-position: relative;
+}
+.child_container_main-body_textheading:hover{
+letter-spacing: 10px;
+background-color: white;
+color: black;
+border-color: black;
+}
+.child_container_main-body_textsubset{
+margin-top: 5vh;
+margin-bottom: 15vh;
+margin-right: auto;
+margin-left: auto;
+width: 60%;
+text-align: center;
+}
+.child_container_main-body_text1{
+font-size: 20px;
+cursor: default;
+transition: .5s;
+font-weight: 400;
+letter-spacing: 1px;
+}
+.child_container_main-body_text1:hover{
+letter-spacing: 2px;
+}
+.child_container_Ourstory_image{
+width: 20%;
+min-width: 20vh;
+opacity: 1;
+padding-bottom: 2vh;
+transition: 1s;        
+}
+.child_container_Ourstory_image:hover{
+transform: translateY(-10px);
+}   
+.About_us_section_header_container1{
+width:100%;
 height: auto;
-width: 100%;
-text-align: center;     
+background-color: white;
+margin-top: 10vh;
+margin-bottom: 10vh;
+}    
+.About_us_section_title_header1{
+font-size: 70px;
+font-weight: 700;
+color: black;
+cursor: default;
+transition: .5s;
+}  
+.About_us_section_title_header1:hover{
+letter-spacing: 1px;
 }
-.e-board-header-text{
-font-size: 40px;
-color: white; 
-font-weight: 500;   
-}
-.e-board_card_container{
-overflow: hidden;
-object-position: center;
-margin:auto;
-display: flex;
+.line_of_separation_solid{
+height: 1px;
 width: 100%;
+background-color: black;
+margin-bottom: 50px;
+margin-top: 50px;
+}
+.line_of_separation_solid_mobile{
+height: 1px;
+width: 100%;
+background-color: black;
+margin-bottom: 50px;
+margin-top: 50px;
+display: block;
+}
+.About_us_section_header_container2{
+width:100%;
+height: auto;
+background: linear-gradient(50deg, lightgray 90%, transparent 10%); 
+}    
+.About_us_section_title_header2{
+font-size: 60px;
+font-weight: 500;
+color: white;    
+cursor: default;
+transition: .5s;
+}  
+.About_us_section_title_header2:hover{
+letter-spacing: 2px;
+}
+.About_us_section_body_container1{
+text-align: center;       
+transition: .5s;
+background: linear-gradient(50deg, white 90%, lightgray 10%); 
+}
+.About_us_section_body_container1:hover{
+transform: translateY(30px);
+}
+.Card_container_Eboard{
+padding-top:5vh;
+height: auto;
+width: auto;
+padding-bottom: 10vh;
+padding-top: 10vh;
+background: linear-gradient(50deg, white 40%, lightgray 50%, transparent 10%);  
 }
 .card{
-display: flex;
+display: block;
 background-color: white;
-width: 100%;
-height: 500px;
+width:  40vh;
+height: 40vh;
 perspective: 1000px;
 margin: auto;
-text-align: center;
-border-radius: 25px;
-border-width: 10px;
-border-color: white; 
-border-style: outset;   
+text-align: center; 
+padding-right: 3vh;
+padding-left: 3vh;
+padding-top: 3vh;
+padding-bottom: 3vh;
+}
+.card_informationpanel_sidediv{
+width: 35vh;
+height: 35vh;
+min-height: 350px;
+min-width: 350px;
+background-color: white;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+left: 20vh;
+border-color: black;
+border-style: dotted;
+border-width: 3px;
+border-radius: 50%;
+overflow: hidden;
+transition: .1s;
+}
+.card_informationpanel_sidediv:hover{
+border-style: outset;
+border-color: silver;
+border-width: 5px;
+}
+.card_informationpanel_sidediv_textcontainer{
+width: 80%;
+height: auto;
+padding-top: 4vh;
+margin-left: auto;
+margin-right: auto;
+background-color: white 
+}
+.card_informationpanel_sidediv_text{
+font-size: 27px;
+font-weight: 300;
+color: black;    
+cursor: default;    
+}
+.card_informationpanel_sidediv_text_button{
+font-size: 30px;
+font-weight: 300;
+cursor: default;   
+border-color: black; 
+border-radius: 25px; 
+border-style: solid;
+border-width: 1px; 
+background-color: black;
+color: white; 
+padding-right: 40px; 
+padding-left: 40px; 
+cursor: pointer;
+transition: .1s;
+}
+.card_informationpanel_sidediv_text_button:hover{
+background-color: white;
+color: black;
 }
 .card-inner{
 position: relative;
-width: 100%;
-height: auto;
+width:  40vh;
+height: 40vh;
+border-radius: 50%;
+border-width: 1px;
+border-color: black; 
+border-style: solid; 
 text-align: center;
 transition: transform 0.6s;
 transform-style: preserve-3d;
@@ -666,34 +1419,43 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 background-color: white;
 color: black;
 text-align: center;  
-border-radius: 25px;
-border-width: 1px;
-border-color: white; 
+overflow: hidden;
+}
+.card-front-information-overlay{
+background: linear-gradient(50deg, white 40%, #6963f8 50%, transparent 10%);  
+background-color: black;
+height: 30vh;
+width: 30vh;
+margin: auto;
 }
 .e-board-image-style{
-width: auto; 
-height: 200px; 
-border-radius: 50%; 
-border-style: solid; 
-border-color: white; 
-border-width: 2px;      
+margin-right: auto;
+margin-left: auto;
+height: 40vh;
+width: 40vh;
 }
 .card-back{
 background-color: white;
 color: white;
 transform: rotateY(180deg);
-border-radius: 25px;
-border-width: 1px;
-border-color: white; 
+text-align: center;  
+overflow: hidden;
 }
 .e-board-back-image-style{
-height:200px;
-width:200px; 
+margin-left: auto;
+margin-right: auto;
+margin-top: 10vh;
+height: 15vh;
+width: 15vh;
 }
 .card-front, .card-back {
 position: absolute;
-width: 100%;
-height: 100%;
+width:  40vh;
+height: 40vh;
+border-radius: 50%;
+border-width: 1px;
+border-color: black; 
+border-style: solid; 
 margin: auto;
 -webkit-backface-visibility: hidden;
 backface-visibility: hidden;
@@ -702,391 +1464,440 @@ backface-visibility: hidden;
 .card:hover .card-inner {
 transform: rotateY(180deg);
 }
-
-.e-board_contact_button {
-font-size: 30px; 
-color: white; 
-font-weight: 500;
-border: none;
-outline: 0;
-display: block;
-color: white;
-background-color: black;
+.About_us_section_body_title1{
 text-align: center;
-cursor: pointer;
-width: 100%;
-font-size: 18px;
-left:0;
-bottom: -50px;
-position: relative;
-}
-
-.span_shift_e-board{
-display: block;
-background-color: "black";
-}
-
-/* Special case styling for tablets and mobile
-phones turned horizontally */
-@media screen and (min-width: 568px) {    
-.e-board_contact_button {
-font-size: 30px; 
-color: white; 
+font-size: 50px;
 font-weight: 500;
-border: none;
-outline: 0;
-display: block;
-color: white;
-background-color: black;
+color: #6963f8;
+cursor: default;
+}
+.About_us_section_body_summary_title1{
+margin-top: 50px;
 text-align: center;
-cursor: pointer;
-width: 100%;
-font-size: 18px;
-left:0;
-bottom: 50px;
-position: absolute;
+font-size: 40px;
+color: dimgray;
+font-weight: 500;
+cursor: default;
 }
-}
-@media screen and (max-width: 830px) {
-.e-board-image-style{
-height: 150px; 
-}
+.About_us_section_body_summary1{
+margin-top: 10px;
+margin-bottom: 100px;
+text-align: center;
+font-size: 20px;
+color: black;  
+font-weight: 300;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+cursor: default;
+transition: .5s;
+font-weight: 400;
 }
 
-/*mobile styling for second div */
-@media screen and (max-width: 420px) {
-.e-board_parent_container{
-background-image: linear-gradient(-90deg, black, white);
-background-position: center;
-display: grid;
-background-repeat: repeat;
-border-color: black;
-border-style: solid;
-border-width: 1px;
-position: relative;
-height: auto;
-width: 100%;
+.About_us_section_body_summary1:hover{
+letter-spacing: 2px;
+font-weight: 500;
 }
-.e-board_card_container{
-margin:auto;
-display: grid;
-width: 100%;
-overflow: hidden;
+/* Separation for readability */
+.About_us_section_header_container3{
+width:100%;
 height: auto;
+background-color: #6963f8;
+margin-top: 50px;
+text-align: center;
+}
+.About_us_section_title_header3{
+font-size: 50px;
+font-weight: 400;
+color: white; 
+font-weight: 400;
+cursor: default;
+}
+.About_us_section_body_container2{
+text-align: center;
+transition: .5s;
+}
+.About_us_section_body_container2:hover{
+transform: translateY(30px);    
+}
+.About_us_section_body_title2{
+text-align: center;
+font-size: 40px;
+color: #6963f8;  
+font-weight: 600;
+cursor: default;
+}
+.About_us_section_body_summary_title2{
+margin-top: 50px;
+text-align: center;
+font-size: 40px;
+color: dimgray;
+font-weight: 500;
+cursor: default;
+}
+.About_us_section_body_summary2{
+margin-top: 10px;
+margin-bottom: 100px;
+text-align: center;
+font-size: 20px;
+color: black;
+font-weight: 300;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+cursor: default;
+transition: .5s;
+font-weight: 400;
+}
+.About_us_section_body_summary2:hover{
+letter-spacing: 2px;
+font-weight: 500;
+}
+@media screen and (max-width: 767px) and (min-width: 300px) and (orientation: portrait) {
+.child_container_main-body_textheading{
+font-size: 50px;
+}
+}
+@media screen and (max-width: 450px) and (min-width: 300px) and (orientation: portrait) { 
+.parent_container_main-body{
+padding-top: 0px;    
+}
+.child_container_main-body{
+padding-top: 0px;
+}
+.child_container_main-body_textsubset{
+width: 80%;    
+}
+.child_container_main-body_text1{
+font-size: 16px;      
+}
+.child_container_main-body_textheading{
+letter-spacing: 0px;
+}
+.About_us_section_title_header1{
+font-size: 40px;
+letter-spacing: 0px;
+}
+.About_us_section_header_container2{
+margin-top: 50px; 
+}
+.About_us_section_title_header2{
+font-size: 30px;   
+}
+.About_us_section_body_summary1{
+width: 90%;
+font-size: 18px;
+}
+.About_us_section_title_header3{
+font-size: 40px;    
+}
+.About_us_section_body_summary2{
+width: 90%;    
+font-size: 18px;
+}
+.card_informationpanel_sidediv{
+left:0;     
 }
 .card{
-background-color: white;
-display: block;
-width: 100%;
-height: 120vw;
-perspective: 1000px;
-margin: auto;
-text-align: center;
-border-radius: 25px;
-border-width: 10px;
-border-color: white; 
-border-style: outset;   
-}
-.card-inner{
-position: relative;
-width: 100%;
-height: 100%;
-text-align: center;
-transition: transform 0.6s;
-transform-style: preserve-3d;
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+padding-bottom: 5vh;    
 }
 }
-/* end of mobile styling for div 2 */
-/* end of styling for div 2 */
+@media screen and (max-width: 830px) and (min-width: 568px) and (max-height: 450px) and (orientation: landscape) {
+.child_container_main-body_textheading{
+font-size: 50px;
+}
+.parent_container_main-body{
+padding-top: 0px;    
+}
+.child_container_main-body{
+padding-top: 0px;
+}
+.child_container_main-body_textsubset{
+width: 80%;    
+}
+.child_container_main-body_text1{
+font-size: 16px;      
+}
+.child_container_main-body_textheading{
+letter-spacing: 0px;
+}
+.About_us_section_title_header1{
+font-size: 50px;
+letter-spacing: 0px;
+}
+.About_us_section_header_container2{
+margin-top: 50px; 
+}
+.About_us_section_title_header2{
+font-size: 45px;   
+}
+.About_us_section_body_summary1{
+width: 90%;
+font-size: 18px;
+}
+.About_us_section_title_header3{
+font-size: 40px;    
+}
+.About_us_section_body_summary2{
+width: 90%;    
+font-size: 18px;
+}    
+}
+/* End of Div 3 Styling */
 
-/* start of styling for div 3 */
+/* Start of Div 4 Styling */
 .parent_container_mascot{
-background-color: black;
-background-position: center;
-background-repeat: repeat;
-border-color: white;
-border-style: solid;
-border-width: 1px;
-position: relative;
-text-align: center;
+width: 100%;
 height: auto;
-padding-bottom: 120px;
-padding-top: 120px;
-width: 100%;    
-overflow: hidden;
-}
-.mascot_text_style{
-font-size: 35px; 
-color: white;
-font-weight: 500;
 }
 .child_container_mascot{
-background-image: url('https://i.imgur.com/MuwQHqT.gif');
-background-position: center;
-background-repeat: repeat;
-position: relative;
-text-align: center;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
 height: auto;
-width: 100%;  
+text-align: center;
+background: radial-gradient(lightgray 4px, transparent 5px); background-size: 30px 30px;
+padding-bottom: 20vh;
+}
+.child_container_mascot_boundingbox{
+background-image: url('https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/Corgi_mascot.svg');
+background-position: center;
+border-radius: 50%;
+border-color: #ffd61f;
+border-width: 10px;
+border-style: outset;
 overflow: hidden;
+height: 25vh;
+width: 25vh;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10vh;
+margin-top: 10vh;
+transition: .5s;
+}
+.child_container_mascot_boundingbox:hover{
+transform: rotate(720deg);
+}
+.child_container_mascot_headerfont{
+font-size: 70px;
+font-weight: 700;
+color: black;
+cursor: default;
+transition: .5s;
+}
+.child_container_mascot_headerfont:hover{
+letter-spacing: 1px;
 }
 .mascot_style{
-background-color: white;
-height: 200px;
-width:auto;
-cursor:pointer;
-border-radius: 50%;
-border-width: 1px;
-border-color: black; 
-border-style: groove;
-overflow: hidden;
+transition: .5s;
+margin: auto;
 }
 
-/* mobile styling */
-@media screen and (max-width: 420px) {
+.mascot_text_style_container{
+
+}
 .mascot_text_style{
-font-size: 25px; 
-color: white;
-font-weight: 500;
-}
-}
-/*end of div 3 styling */
-
-/*start of div 4 styling*/
-.parent_container_WIQC{
+font-size: 25px;
 background-color: white;
-background-position: center;
-display: grid;
-padding-top: 40px;
-text-align: center;
-border-color: black;
+border-color: #ffd61f;
+border-width: 2px;
 border-style: solid;
-border-width: 1px;
-position: relative;
-height: auto;
+border-radius: 25px;
+cursor: default;
+transition: .5s;
+}
+.mascot_text_style:hover{
+letter-spacing: 1px;    
+}
+/* Styling for other devices */
+@media screen and (max-width: 450px) and (min-width: 300px) and (orientation: portrait) { 
+.child_container_mascot_image{
 width: 100%; 
-}
-.WIQC_header{
-margin:auto;
-font-size: 70px; 
-color: white; 
-height: 100%;
-width: auto;
-font-weight: 600;
-background-color: black;
-border-radius: 25px;
-border-color: black; 
-border-width: 1px; 
-border-style: solid; 
-position: relative;
-padding: 10px;
-}
-.child_container_WIQC{
+margin-top: 100px;
+margin-bottom: 100px;
+}   
+.great_grand_child_container_container_inhome{
+width: 90%;
+font-size: 16px;
+padding: 0px;
 padding-top: 40px;
-margin: auto;   
-display: grid;
+padding-bottom: 40px;
 }
-.WIQC_image_1{
-float: left;
-height: 20%;
-width: auto;
-border-radius: 45px;
-border-color: black;
-border-width: 1px;
-border-style: solid;
-box-shadow: -30px 40px 20px 30px rgba(0,0,0,0.2);
+.list_bullets_font{
+font-size: 16px;    
 }
-.WIQC_image_2{
-float: left;
-height: 20%;
-width: auto;
-border-radius: 45px;
-border-color: black;
-border-width: 1px; 
-border-style: solid;
-box-shadow: 0 40px 20px 30px rgba(0,0,0,0.2);
+.list_bullets_font:hover{
+font-size: 17px; 
+letter-spacing: 2px;
 }
-.WIQC_image_3{
-float: right;
-height: 20%;
-width: auto;
-border-radius: 45px; 
-border-color: black; 
-border-width: 1px;
-border-style: solid;
-box-shadow: 100px 40px 20px 30px rgba(0,0,0,0.2);
+.child_container_mascot_headerfont{
+font-size: 35px;
 }
-.container_WIQC_textbox{
-max-width:80%;
-height: auto; 
-position: relative; 
-margin:auto;
-text-align: center;
 }
+@media screen and (max-width: 830px) and (min-width: 568px) and (max-height: 450px) and (orientation: landscape) {
+.child_container_mascot_image{
+width: 100%; 
+margin-top: 100px;
+margin-bottom: 100px;
+}   
+.great_grand_child_container_container_inhome{
+width: 90%;
+font-size: 16px;
+padding: 0px;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.list_bullets_font{
+font-size: 16px;    
+}
+.list_bullets_font:hover{
+font-size: 17px; 
+letter-spacing: 2px;
+}
+.child_container_mascot_headerfont{
+font-size: 35px;
+}    
+}
+/* End of Div 4 Styling */
 
-.WIQC_textbox_style{
-font-size: 30px; 
-color: black; 
-font-weight: 200;    
-}
-
-.WIQC_textbox_style_2{
-font-size: 30px; 
-color: black; 
-font-weight: 200;          
-}
-
-.second_paragraph_WIQC{
-color: black;
-font-weight: 200;
-}
-
-.WIQC_textbox_KV{
-font-size: 25px; 
-color: white; 
-font-weight: 600; 
-background-color: black;
-border-radius: 25px;
-border-color: black; 
-border-width: 1px;
-border-style: dashed;   
-text-decoration: none;
-}
-
-.span_WIQC_shift{
-display: block;    
-}
-
-/* Special case styling for tablets and mobile
-phones turned horizontally */
-@media screen and (max-width: 830px) {
-.WIQC_header{
-font-size: 50px; 
-}
-.container_WIQC_textbox{
-width:100%;
-height: auto; 
-position: relative; 
-margin:auto;
-text-align: center;
-}
-.WIQC_textbox_style{
-font-size: 25px; 
-}
-.WIQC_image_1{
-float: right;
-width: 70%;
-border-radius: 45px;
-border-color: white;
-border-width: 1px;
-border-style: solid;
-}
-.WIQC_image_2{
-float: right;
-width: 60%;
-border-radius: 45px;
-border-color: white;
-border-width: 1px; 
-border-style: solid;
-}
-.WIQC_image_3{
-float: left;
-width: 70%;
-border-radius: 45px; 
-border-color: white; 
-border-width: 1px;
-border-style: solid;
-}
-}
-/* mobile styling */
-@media screen and (max-width: 420px) {
+/* Start of Div 5 Styling */
 .parent_container_WIQC{
-background-position: center;
-display: grid;
-padding-top: 40px;
-text-align: center;
-border-color: black;
-border-style: solid;
-border-width: 1px;
-position: relative;
-height: auto;
-width: 100%; 
-}
-.WIQC_header{
 margin:auto;
-font-size: 40px; 
-height: 100%;
-width: auto;
-background-color: black;
-border-radius: 25px;
-border-color: black; 
-border-width: 1px; 
-border-style: solid; 
-position: relative;
-padding: 10px;
 }
 .child_container_WIQC{
-padding-top: 40px;
-margin: auto;   
-display: grid;
-width: 100%;
-}
-.WIQC_image_1{
-float: none;
-width: 100%;
-border-radius: 45px;
-border-color: white;
+margin:auto;
+cursor: default;
+}   
+.child_container_WIQC_headerfont{
+font-size: 50px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+color: #9ceb00;
+background: linear-gradient(50deg, black 90%, transparent 10%); 
+cursor: default;
+transition: .5s;
+} 
+.child_container_WIQC_headerfont:hover{
+color: black;
 border-width: 1px;
+border-color: #9ceb00;
 border-style: solid;
+background: #9ceb00;    
 }
-.WIQC_image_2{
-float: none;
-width: 100%;
-border-radius: 45px;
-border-color: white;
-border-width: 1px; 
-border-style: solid;
+.grandchild_container_WIQC{
 }
-.WIQC_image_3{
-float: none;
-width: 100%;
-border-radius: 45px; 
-border-color: white; 
-border-width: 1px;
-border-style: solid;
+.container_WIQC_mp4{
+background: linear-gradient(50deg, #9ceb00 10%, white 80%, lightgray 10%); 
 }
 .container_WIQC_textbox{
-background-color: transparent;
-width:100%;
-display: block;
-height: auto; 
+padding-top: 10vh;
+padding-bottom: 10vh;
+text-align: center;
+width: 60%;
+margin: auto;
+}
+.WIQC_textbox_style{
+text-align: center;
 font-size: 20px;
-position: relative; 
+font-weight: 500;
+transition: .5s;
+} 
+.WIQC_image{
+margin:auto;
+left: 0;
+right: 0;
+border-color: #9ceb00;
+border-style: solid;
+border-width: 5px;
+transition: .5s;
+}
+.WIQC_image:hover{
+transform: translateY(10px);
+}
+.WIQC_textbox_style_2{
+font-size: 30px;
+font-weight: 400;
+}
+
+/* Styling for other devices */
+@media screen and (max-width: 450px) and (min-width: 300px) and (orientation: portrait) {     
+.child_container_WIQC_headerfont{
+font-size: 30px;  
+}
+.WIQC_image{
+width: 100%;   
+}
+}
+/* End of Div 5 Styling */
+
+/* Start of Div 6 Styling */    
+.parent_container_INQC{
+margin:auto;
+}
+.child_container_INQC{
+margin:auto;
+cursor: default;
+}   
+.child_container_INQC_headerfont{
+font-size: 50px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+color: #EBBE27;
+background: linear-gradient(50deg, black 90%, transparent 10%); 
+transition: .5s;
+}     
+.child_container_INQC_headerfont:hover{
+color: black;
+border-width: 1px;
+border-color: #EBBE27;
+border-style: solid;
+background: #EBBE27;
+}
+.grandchild_container_INQC{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: black;
+padding-bottom: 10vh;
+padding-top: 10vh;
+} 
+.grandchild_container_INQC_Image{
+border-color: #EBBE27;
+border-style: solid;
+border-width: 2px;
+width: 70%;
+transition: .5s;
+}
+.grandchild_container_INQC_Image:hover{
+transform: translateY(20px);
+border-style: outset;
+border-width: 5px;
+}
+
+.child_container_INQC_bottomtext{
+color: #EBBE27;
+font-size: 15px;
 margin:auto;
 text-align: center;
 }
 
-.WIQC_textbox_style{
-font-size: 20px; 
-}
-
-.WIQC_textbox_style_2{
-font-size: 20px;  
-}
-
-.WIQC_textbox_KV{
-font-size: 20px; 
+/* Styling for other devices */
+@media screen and (max-width: 450px) and (min-width: 300px) and (orientation: portrait) {     
+.child_container_INQC_headerfont{
+font-size: 30px;
 background-color: black;
-border-radius: 25px;
-border-color: white; 
-border-width: 1px;
-border-style: dashed;   
-text-decoration: none;
 }
+.grandchild_container_INQC{
+padding-top: 200px;
+padding-bottom: 200px;
 }
-/* end of styling for div 4 */
-/* start of styling for div 5 */
+
+}
+/* End of Div 6 Styling */    
+
+/* Start of Div 7 Styling */
 .parent_container_sqp{
 background-color: #ffffff;
 background-position: center;
@@ -1100,33 +1911,50 @@ position: relative;
 height: auto;
 width: 100%;
 overflow: hidden;
+padding-top: 10vh;
+padding-bottom: 10vh;
 }
 .QP_img_static{
-height:80px;
+height: 10vh;
+transition: .5s;
+}
+.QP_img_static:hover{
+transform: rotateZ(360deg);
 }
 .QP_text_1{
 font-size: 80px; 
 color: black;
 font-weight: 500;
+cursor: default;
 }
 
 .QP_text_2{
 font-size: 40px; 
-color: black; 
-font-weight: 500;  
+color: #4248f5; 
+font-weight: 500; 
+cursor: default;
 }
 
 .QP_image_gif{
-border-radius:25px; 
-border-width: 1px; 
-border-style:solid; 
-border-color:black;  
-}
+border-color: #4248f5;
+border-style: solid;
+border-width: 10px;
+border-radius: 25px;  
+transition: .5s;
 
+}
+.QP_image_gif:hover{
+transform: translateY(10px);
+}
 .QP_text_3_quote{
 font-size: 20px; 
 color: black; 
 font-weight: 500;
+cursor: default;
+transition: .1s;
+}
+.QP_text_3_quote:hover{
+font-weight: 700;
 }
 
 .QP_Container_main{
@@ -1136,13 +1964,20 @@ height: auto;
 position: relative;
 margin:auto;   
 overflow: hidden;
-padding-bottom: 20px;
+padding-bottom: 5vh;
+padding-top: 5vh;
 }
 
 .QP_text_4{
 font-size: 30px; 
 color: black;
-font-weight: 300;     
+font-weight: 300;   
+transition: .5s;
+cursor: default;
+}
+
+.QP_text_4:hover{
+letter-spacing: 1px;  
 }
 
 .QP_Container_Sub{
@@ -1158,14 +1993,18 @@ margin:auto;
 .QP_text_5{
 font-size: 35px; 
 color: black; 
-font-weight: 600;      
+font-weight: 600;     
+transition: .5s;
+}
+.QP_text_5:hover{
+color: gray; 
 }
 
 img.QP_sub_Container_style{
 height:40px;        
 }
 
-@media screen and (max-width: 420px) {    
+@media screen and (max-width: 450px) {    
 .parent_container_sqp{
 background-color: #ffffff;
 background-position: center;
@@ -1181,17 +2020,15 @@ width: 100%;
 overflow: hidden;
 }
 .QP_img_static{
-height:40px;
+height:100px;
 }
 .QP_text_1{
 font-size: 40px; 
-color: black;
 font-weight: 500;
 }
 
 .QP_text_2{
 font-size: 20px; 
-color: black; 
 font-weight: 500;  
 }
 
@@ -1204,8 +2041,7 @@ border-color:black;
 }
 
 .QP_text_3_quote{
-font-size: 20px; 
-color: black; 
+font-size: 15px; 
 font-weight: 500;
 }
 
@@ -1220,8 +2056,7 @@ padding-bottom: 20px;
 }
 
 .QP_text_4{
-font-size: 15px; 
-color: black;
+font-size: 20px; 
 font-weight: 400;     
 }
 
@@ -1240,35 +2075,133 @@ color: black;
 font-weight: 600;      
 }
 }
-/* end of div 5 styling */
-/* start of div 6 styling */
-.parent_container_insideQC{
-background-color: #fddd3c;
-background-position: center;
-background-repeat: repeat;
-background-image: url('https://i.imgur.com/Wz1SOPj.gif');
-text-align: center;  
-object-position: center;
-margin: auto;             
-position: relative;
-height: auto;
-width: 100%;       
+/* End of Div 7 Styling */      
+
+/* start of div 8 styling */
+.parent_container_Queencollection{
+
 }
-.insideQC_image{
+
+.Queencollection_child_container{
+margin-left: auto;
+margin-right: auto;
+oveflow: hidden;
+padding-bottom: 10vh;
+background: linear-gradient(50deg, white 40%, lightgray 50%, #42f5d1 10%);
+}
+.Queencollection_child_header{
 width: 100%;
-border-color: white;
-cursor:pointer;
-border-style: solid;
-border-radius: 5px; 
-border-width: 1px      
+background-color: lightgray;
+height: auto;
+text-align: center;
+oveflow: hidden;
+margin:auto;
+padding-bottom: 2vh;
+padding-top: 2vh;
+margin-bottom: 5vh;
+cursor: default;
+}  
+.Queencollection_child_header2{
+width: 50%;
+height: auto;
+text-align: center;
+oveflow: hidden;
+margin:auto; 
+border-color: white #42f5d1 white;
+border-style: outset;
+border-width: 5px;
+background-color: white;
+border-radius: 25px;
+cursor: default;
+transition: .5s;
 }
-/* end of div 6 styling */
-/* start of div 7 styling */
+.Queencollection_child_header2:hover{
+border-width: 10px;
+}
+.Queencollection_child_header_text_1{
+color: white;
+font-size: 60px;
+transition: .5s;
+}
+.Queencollection_child_header_text_1:hover{
+letter-spacing: 2px;
+}
+.Queencollection_parent_img{
+height: 300px;
+margin-left: 30%;
+}   
+.Queencollection_child_header_text_2{
+color: black;
+font-size: 25px;
+}
+.Queencollection_child_body{
+with: 100%;
+height: auto;
+text-align: center;
+padding-top: 5vh;
+padding-bottom: 10vh;
+background: radial-gradient(#42f5d1 5px, transparent 5px); 
+background-size: 50px 50px;
+padding-top: 10vh;
+padding-bottom: 10vh;
+}
+.vid-wrapper {
+display: block;
+position: relative;
+margin: auto;
+width: 50%;
+}
+.vid-size{
+transition: 2s; 
+border-radius: 25px;
+border-color: #42f5d1;
+border-style: solid;
+border-width: 3px;
+}
+.Corgi_clicker{
+left: 0;
+width: 30vh;
+position: absolute;
+margin-top: -12vh;
+}
+.play-btn {
+display: block;
+color: #42f5d1;
+position: absolute;
+font-size: 80px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+#myiFramelink:hover .play-btn{
+color: black;
+}
+
+@media screen and (max-width: 450px) and (min-width: 300px) {  
+.Queencollection_child_container{
+padding-bottom: 200px;    
+}
+.Queencollection_child_header_text_1{
+font-size: 35px;
+}
+.Queencollection_child_header2{
+width: 80%;
+}
+.Queencollection_child_header_text_2{
+font-size: 18px;      
+}
+.vid-wrapper{
+width: 100%; 
+}
+.vid-size{
+width: 80%; 
+}
+}
+/* end of styling for div 8 */   
+
+/* Start of styling for div 9 */   
 .parent_container_SITL{
-background-color: black;
-background-position: center;
-background-repeat: repeat;
-background-image: url('https://i.imgur.com/Wz1SOPj.gif');
+background-color: white;
 text-align: center;
 top: 0;  
 display: grid;
@@ -1277,19 +2210,39 @@ position: relative;
 height: auto;
 width: 100%;  
 overflow: hidden;
-}    
+cursor: default;
+} 
+.SITL_header_container1{
+width:100%;
+height: auto;
+background-color: white;
+margin-bottom: 10vh; 
+}
+.SITL_title_header1{
+font-size: 70px;
+font-weight: 700;
+color: black;
+cursor: default;
+transition: .5s;   
+}
+.SITL_title_header1:hover{
+letter-spacing: 1px;    
+}
+
 .SITL_header_text{
-font-size: 80px;
-color: white;
-font-weight: 300;        
+font-size: 60px;
+color: black;
+font-weight: 300;
+transition: .5s;
+}
+.SITL_header_text:hover{
+font-weight: 500;
+letter-spacing: 1px;
 }
 .container_white_box{
 padding-top: 20px;
-background-color: transparent;
-background: rgba(45, 45, 45, 0.8);
-background-position: center;
 text-align: center;
-border-color: #fddd3c;
+border-color: black;
 border-style: solid;
 border-width: 3px;
 margin: auto;             
@@ -1297,73 +2250,36 @@ position: relative;
 height: auto;
 width: 60%;
 padding-bottom: 50px;
+transition: .5s;
+padding-left: 20px;
+padding-right: 20px;
 }    
-.SITL_white_box_text{
-font-size: 50px;
-color: #fddd3c;
-font-weight: 300;        
-}
-/* Special case styling for tablets and mobile
-phones turned horizontally */
-@media screen and (max-width: 1024px) {
-.SITL_header_text{
-font-size: 60px;
-color: white;
-font-weight: 300;        
+.container_white_box:hover{
+border-radius: 25px;
+border-width: 5px;
 }
 .SITL_white_box_text{
-font-size: 20px;
-color: #fddd3c;
+font-size: 25px;
+color: black;
 font-weight: 300;        
 }
-.container_white_box{
-padding-top: 20px;
-background-color: transparent;
-background: rgba(45, 45, 45, 0.8);
-background-position: center;
-text-align: center;
-border-color: #fddd3c;
-border-style: solid;
-border-width: 3px;
-margin: auto;             
-position: relative;
-height: auto;
-width: 100%;
-}    
-}
-/* mobile styling */
-@media screen and (max-width: 420px) {
-.SITL_header_text{
-font-size: 60px;
-color: white;
-font-weight: 300;     
-}
-.SITL_white_box_text{
-font-size: 20px;
-color: #fddd3c;
-font-weight: 300;        
-}
-.container_white_box{
-padding-top: 20px;
-background-color: transparent;
-background: rgba(45, 45, 45, 0.8);
-background-position: center;
-text-align: center;
-border-color: #fddd3c;
-border-style: solid;
-border-width: 3px;
-margin: auto;             
-position: relative;
-height: auto;
-width: 70%;
-}    
-}
-/* end of styling for div 7 */
-/* start of styling for div 8 */
 
+@media screen and (max-width: 450px) and (min-width: 300px) {  
+.SITL_title_header1{
+font-size: 40px;    
+}
+.SITL_header_text{
+font-size: 35px;    
+}
+.SITL_white_box_text{
+font-size: 18px;            
+}
+}
+/* end of styling for div 9 */   
+
+/* Start of styling for div 10 */       
 .parent_container_thanks{
 background-color: white;
-background-image: url('https://i.imgur.com/Idoqc4v.gif');
 background-position: center;
 background-repeat: repeat;
 text-align: center;
@@ -1374,7 +2290,10 @@ margin: auto;
 display: grid;
 position: relative;
 height: auto;
-width: 100%;        
+width: 100%;      
+overflow: hidden;
+padding-top: 20vh;
+padding-bottom: 20vh;
 }
 .thanks_white_box_container{
 padding: 40px;
@@ -1390,129 +2309,121 @@ margin: auto;
 position: relative;
 height: auto;
 width: 60%;     
+cursor: default;
+transition: .5s;
+}
+.thanks_white_box_container:hover{
+border-radius: 25px;
+border-width: 5px;
 }
 .thanks_white_box_text{
-font-size: 50px; 
+font-size: 30px; 
 color: black; 
 font-weight: 300;        
 }
-
+.back_to_top_button{
+padding: 20px;
+background-color: white;
+background-position: center;
+text-align: center;
+border-color: black;
+border-style: solid;
+border-width: 1px; 
+object-position: center;
+margin: auto;             
+position: relative;
+height: auto;
+width: auto;     
+cursor: pointer;
+font-size: 25px;
+transition: .5s;    
+}
+.back_to_top_button:hover{
+background-color: black;
+color: white;
+border-radius: 25px;
+}
 .QRG_logo_White_box{
 padding-top: 150px;
 height: 100px;
 width: auto; 
 margin:auto;
 padding-bottom: 120px;
+z-index: 1;
 }  
-
-/* mobile styling */
-@media screen and (max-width: 420px) {
-.thanks_white_box_text{
-font-size: 30px; 
-color: black; 
-font-weight: 300;        
-}  
-.QRG_logo_White_box{
-padding-top: 150px;
-height: 70px;
-width: auto; 
-margin:auto;
-}  
+#Bottom_Hexagons{
+position: absolute;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;        
 }
 
-/* end of page specific styling */
+@media screen and (max-width: 450px) and (min-width: 300px) {  
+.thanks_white_box_text{
+font-size: 20px;
+}
+.back_to_top_button{
+font-size: 20px;    
+}
+}
+/* end of styling for div 10 */       
 
-/* broad styling effects (for the whole container) */
-@font-face { font-family: aleo_reg; src: url('Aleo-Regular.otf'); } 
-@font-face { font-family: aleo_reg; font-weight: bold; src: url('Aleo-Regular.otf');}
-@font-face { font-family: auto_Bahn; src: url('AUTOBAHN.TTF'); } 
-@font-face { font-family: auto_Bahn; font-weight: bold; src: url('AUTOBAHN.TTF');}
-    
-body {
-font-family: 'Quicksand', sans-serif;
-font-weight: 300;
-}    
+</style>
+<!-- End of style sheet for the home page -->
 
+<!-- Animation style sheet for keyframes  -->
+<style>
+/* Keyframe animation styling css document */
+@keyframes fadeInOut {0% {opacity:0;}5%,100% {opacity:1;}} /* fades the loading screen logo in and out */
+@-webkit-keyframes fadeInOut {0% {opacity:0;}5%,100% {opacity:1;}}
+
+@keyframes fadeOut {0% {opacity:1;}10%,100% {opacity:0; display: none;}} /* fades the loading screen out */
+@-webkit-keyframes fadeOut {0% {opacity:1;}10%,100% {opacity:0; display: none;}}
+
+@keyframes loadingscreen_shudderevealanimation_right {0% {transform:translateX(0px);}50%{transform:translateX(-800px);}100%{transform:translateX(-2600px);}}
+@-webkit-keyframes loadingscreen_shudderevealanimation_right {0% {transform:translateX(0px);}50%{transform:translateX(-800px);}100%{transform:translateX(-2600px);}}
+
+@keyframes loadingscreen_shudderevealanimation_left {0% {transform:translateX(0px);}50%{transform:translateX(800px);}100%{transform:translateX(2600px);}}
+@-webkit-keyframes loadingscreen_shudderevealanimation_left {0% {transform:translateX(0px);}50%{transform:translateX(800px);}100%{transform:translateX(2600px);}}
+
+@keyframes loadingscreen_shudderevealanimation_logooverlay{0% {transform:translateX(0px);}50%{transform:translateX(1300px);}100%{transform:translateX(2600px);}}
+@-webkit-keyframes loadingscreen_shudderevealanimation_logooverlay{0% {transform:translateX(0px);}50%{transform:translateX(1300px);}100%{transform:translateX(2600px);}}
+
+@keyframes loadingscreen_shudderevealanimation_logooverlay{0% {transform:translateX(0px);}50%{transform:translateX(1300px);}100%{transform:translateX(2600px);}}
+@-webkit-keyframes loadingscreen_shudderevealanimation_logooverlay{0% {transform:translateX(0px);}50%{transform:translateX(1300px);}100%{transform:translateX(2600px);}}
+
+@keyframes loadingscreen_atomic_loading_animation{0% {transform:rotateZ(0deg);border-width: 3px;}30%,100%{border-width: 2px;}50%{transform:rotateZ(450deg);border-width: 5px;}100%{transform:rotateZ(900deg);}}
+@-webkit-keyframes loadingscreen_atomic_loading_animation{0% {transform:rotateZ(0deg);border-width: 3px;}30%,100%{border-width: 2px;}50%{transform:rotateZ(450deg);border-width: 5px;}100%{transform:rotateZ(900deg);}}
+
+@keyframes loadingscreen_radiushomepage_loading_animation{0% {transform:rotateZ(0deg);border-width: 3px;}30%,100%{border-width: 2px;}50%{transform:rotateZ(450deg);border-width: 5px;}100%{transform:rotateZ(900deg);}}
+@-webkit-keyframes loadingscreen_radiushomepage_loading_animation{0% {transform:rotateZ(0deg);border-width: 3px;}30%,100%{border-width: 2px;}50%{transform:rotateZ(450deg);border-width: 5px;}100%{transform:rotateZ(900deg);}}
+
+/* End of Keyframes */
+
+/* Fades in the target element */
+@keyframes fadeIn {0% {opacity:0;}10%,100% {opacity:1;}}
+@-webkit-keyframes fadeIn {0% {opacity:0;}10%,100% {opacity:1;}}
+/* End of Keyframe
+</style>
+<!-- Animation style sheet for keyframes  -->
+
+<!-- Universal style sheet for universal page properties such as font-families for tags -->
+<style>
+p1{
+font-family: 'Raleway', sans-serif;
+}
+p2{
+font-family: 'Open Sans', sans-serif;
+}
 a{
 text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-font-weight: 500;
-}   
-
-h1 {
-color: #000000;
-font-family: 'Arial','Helvetica', sans-serif;
-font-size: 60px;
-line-height: 76px;
-margin: 0;
-position: relative;
-text-align: left;
-top: 20%;
-}   
-
-h2 {
-color: #E1E1E1;
-font-family: 'Raleway', sans-serif;
-font-size: 28px;
-font-weight: 500;
-text-align: left;
-text-transform: uppercase;
-}   
-
-h3{
-font-family: 'auto_Bahn', sans-serif;             
-}
-
-p {
-color: #ffffff;
-line-height: 32px;
-font-family: 'aleo_reg', serif;
-font-weight: 300;
-font-size: 50px;
-}   
-
-p1 {
-color: #000000;
-line-height: 32px;
-font-family: 'aleo_reg', serif;
-font-weight: 300;
-font-size: 50px;
-}
-
-p2 {
-color: #000000;
-line-height: 32px;
-font-family: 'aleo_reg', serif;
-font-weight: 500;
-font-size: 50px;
-}    
-
-/* Unique styling for special page characteristics */
-/* The progress container (grey background) */
-.progress-container {
-z-index: 1;
-width: 90%;
-height: 8px;
-margin:auto;
-background: black;
-border-radius: 25px; 
-border-color: white;
-border-width: 1px;
-border-style: solid;
-}
-
-/* The progress bar (scroll indicator) */
-.progress-bar {
-z-index: 1;
-height: 8px;
-background: white;
-width: 0%;
-} 
-
+/* Custom Scroll bar */
 /* width */
 ::-webkit-scrollbar {
+background-color: white;
 width: 10px;
 }
 
@@ -1524,536 +2435,22 @@ border-radius: 25px;
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-background: white; 
+background: black; 
 border-radius: 25px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-background: #fddd3c; 
+background: gray; 
 }  
+/* Custom Scroll bar */
 
-/* footer for website */
-.footer_text{
-font-size: 10px;
-color: white;
-}
-
-.footer {
-display: block;
-position: fixed;
-right: 0;
-bottom: 0;
-height: 40px;
-left: 0;
-z-index: 1000; 
-padding: 1rem;
-background-color: #030303;
-text-align: center;
-}
-
-.footer_inner{
-margin-top: -20px;    
-}
-@media screen and (max-height: 375px) {
-.footer{
-display: none; 
-}
-}
-@media screen and (min-width: 1024px) {
-.footer_text{
-font-size: 15px;
-color: white;
-}
-}
-
-/* Side Navigation bar styling */
-.side_nav_parent_container{
-width: 0;
-height: 100%;
-position: fixed;
-z-index: 3;
-top:0;
-right: 0;
-overflow: hidden;
-background-image: url('https://i.imgur.com/JN0KAUA.gif');
-opacity: 1.0;
-transition: .2s;
-}
-.side_nav_child_container{
-with: 90%;
-height: 75%;
-z-index: 4;
-border-radius: 25px;
-border-color: white;
-border-style: inset;
-border-width: 3px;
-margin-left: auto;
-margin-right: auto;
-margin-top: -90px;
-background-image:url(https://i.imgur.com/QOvVibW.gif);
-oveflow: hidden;
-}
-.side_nav_child_header{
-background-image:url(https://i.imgur.com/QOvVibW.gif);
-width: 100%;
-height: auto;
-text-align: center;
-oveflow: hidden;
-border-radius: 25px;
-border-style: solid;
-border-width: 1px;
-border-color: white;
-}  
-.side_nav_child_header_text_1{
-color: white;
-font-size: 30px;
-}
-.side_nav_parent_img{
-height: 300px;
-margin-top: -100px;
-margin-left: 30%;
-}   
-.side_nav_child_header_text_2{
-color: white;
-font-size: 15px;
-}
-.side_nav_child_body{
-with: 100%;
-height: auto;
-background-color:rgba(0,0,0,0.9);  
-text-align: center;
-}
-.vid-wrapper {
-display: inline-block;
-position: relative;
-}
-.vid-size{
-width: 100%;
-height: 100%;
-transition: 2s; 
-border-radius: 25px;    
-}
-.play-btn {
-display: block;
-color: white;
-position: absolute;
-font-size: 56px;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-}
-#myiFramelink:hover .play-btn{
-color: black;
-}
-.hyper_link_styling{
-border-style: solid;
-border-color: black;
-border-width: 1px;
-background-color: white;
-height: auto;
-padding: 10px;
-font-size: 20px;
-color: black;
-}
-.span_shift_side_nav{
-display: block;
-}
-.side_nav_tab_mobile{
-position: fixed;
-height: 40px;
-width: 40px;
-display: block;
-z-index: 2;
-background-color: transparent;
-right: 0;
-top: 50%;
-cursor:pointer
-}
-img.side_nav_exit_button{
-height: 150px;
-position: absolute;
-top: 0;
-}
-.side_nav_child_container a:hover{
-color: #f1f1f1;        
-}
-/* other devices */
-@media screen and (max-width: 320px) {
-.vid-size{
-width: auto;
-height: auto;
-transition: 1s; 
-border-radius: 25px; 
-}
-.side_nav_child_header_text_1{
-color: white;
-font-size: 20px;
-}
-.side_nav_child_header_text_2{
-color: white;
-font-size: 13px;
-}
-.hyper_link_styling{
-border-style: solid;
-border-color: black;
-border-width: 1px;
-background-color: white;
-height: auto;
-padding: 10px;
-font-size: 15px;
-color: black;
-}
-}
-@media screen and (max-width: 360px) {
-.vid-size{
-width: 80%;
-height: 80%;
-transition: 1s; 
-border-radius: 25px;    
-}
-.hyper_link_styling{
-border-style: solid;
-border-color: black;
-border-width: 1px;
-background-color: white;
-height: auto;
-padding: 10px;
-font-size: 15px;
-color: black;
-}
-}
-@media screen and (max-width: 375px) {
-.side_nav_child_header_text_1{
-color: white;
-font-size: 20px;
-}
-.vid-size{
-width: 80%;
-height: 80%;
-transition: 1s; 
-border-radius: 25px;    
-}
-.side_nav_tab_mobile{
-position: fixed;
-height: 50px;
-width: 50px;
-display: block;
-z-index: 2;
-background-color: transparent;
-right: 0;
-top: 50%;
-cursor:pointer
-}
-}
-@media screen and (min-width: 400px) {
-.side_nav_child_header_text_1{
-color: white;
-font-size: 20px;
-}
-.side_nav_tab_mobile{
-position: fixed;
-height: 55px;
-width: 55px;
-display: block;
-z-index: 2;
-background-color: transparent;
-right: 0;
-top: 50%;
-cursor:pointer
-}
-}
-@media screen and (min-width: 700px) {
-.side_nav_tab_mobile{
-position: fixed;
-height: 80px;
-width: 80px;
-display: block;
-z-index: 2;
-background-color: transparent;
-right: 0;
-top: 50%;
-cursor:pointer
-}
-}
-@media screen and (max-height: 375px) {
-.vid-size{
-display: none;
-}
-.play-btn {
-display: none;
-}
-.hyper_link_styling{
-border-style: solid;
-border-color: black;
-border-width: 1px;
-background-color: white;
-height: auto;
-padding: 10px;
-font-size: 20px;
-color: black;
-}
-.side_nav_child_header{
-background-image:url(https://i.imgur.com/QOvVibW.gif);
-width: 100%;
-height: auto;
-text-align: center;
-oveflow: hidden;
-border-radius: 25px;
-border-style: solid;
-border-width: 1px;
-border-color: white;
-margin-top: -10px;
-} 
-.side_nav_parent_img{
-height: 300px;
-margin-top: -120px;
-margin-left: 30%; 
-}  
-img.side_nav_exit_button{
-height: 150px;
-position: absolute;
-top: 0;
-margin-top: -20px;
-}
-} 
-@media screen and (max-height: 414px){
-.vid-size{
-display: none;
-}
-.play-btn {
-display: none;
-}
-.hyper_link_styling{
-border-style: solid;
-border-color: black;
-border-width: 1px;
-background-color: white;
-height: auto;
-padding: 10px;
-font-size: 20px;
-color: black;
-}
-}    
-@media screen and (max-height: 568px) {
-.vid-size{
-display: none;
-}
-.play-btn {
-display: none;
-}
-}
-@media screen and (min-width: 1024px) {
-.side_nav_parent_container{
-width: 0;
-height: 100%;
-position: fixed;
-z-index: 3;
-top:0;
-overflow: hidden;
-right: 0;
-background-image: url('https://i.imgur.com/JN0KAUA.gif');
-opacity: 1.0;
-transition: 0.5s;
-}
-.side_nav_child_container{
-with: 90%;
-height: 75%;
-z-index: 4;
-border-radius: 25px;
-border-color: white;
-border-style: inset;
-border-width: 3px;
-margin-left: auto;
-margin-right: auto;
-margin-top: -90px;
-background-image:url(https://i.imgur.com/QOvVibW.gif);
-oveflow: hidden;
-}
-.side_nav_child_header{
-background-image:url(https://i.imgur.com/QOvVibW.gif);
-width: 100%;
-height: auto;
-text-align: center;
-oveflow: hidden;
-border-radius: 25px;
-border-style: solid;
-border-width: 1px;
-border-color: white;
-}  
-.side_nav_child_header_text_1{
-color: white;
-font-size: 25px;
-}
-.side_nav_parent_img{
-height: 300px;
-margin-top: -100px;
-margin-left:45%;
-}   
-.side_nav_child_header_text_2{
-color: white;
-font-size: 25px;
-}
-.side_nav_child_body{
-with: 100%;
-height: auto;
-background-color:rgba(0,0,0,0.9);  
-text-align: center;
-}
-.vid-wrapper {
-display: block;
-position: relative;
-margin: auto;
-}
-.vid-size{
-max-width: 30%;
-transition: 1s; 
-border-radius: 25px;    
-margin: auto;
-}
-.play-btn {
-display: block;
-position: relative;
-font-size: 86px;
-left: 50%;
-transform: translate(-50%, -50%);
-}
-#myiFramelink:hover .play-btn{
-color: black;
-}
-.hyper_link_styling{
-border-style: solid;
-border-color: black;
-border-width: 1px;
-background-color: white;
-height: auto;
-padding: 10px;
-font-size: 23px;
-color: black;
-}
-.span_shift_side_nav{
-display: block;
-}
-.side_nav_tab_mobile{
-position: fixed;
-height: 100px;
-width: 100px;
-display: block;
-z-index: 2;
-background-color: transparent;
-right: 0;
-top: 50%;
-cursor:pointer
-}
-img.side_nav_exit_button{
-height: 150px;
-position: absolute;
-top: 0;
-}
-.side_nav_child_container a:hover{
-color: #f1f1f1;        
-}
-}
-/* Side Navigation bar styling */   
-/*Top Navigation bar styling */
-.parent_container_top_nav {
-background-color: #ffffff;
-overflow: hidden;
-float: left;
-position: fixed;
-top: 0;
-width: 100%;
-z-index: 2;
-border-radius: 25px; 
-border-width: 1px;
-border-color: black; 
-border-style: groove;
-}
-.parent_container_top_nav a{
-float: left;
-display: block;
-color: #000000;
-text-align: center;
-padding: 14px 26px;
-text-decoration: none;
-transition: 0.3s;
-height: auto;
-font-weight: 20;
-font-size: 11px;
-}
-.top-navi-text{
-font-size: 20px;    
-overflow: hidden;
-cursor:pointer
-}
-
-img.QRG_Logo{
-width:90px; 
-height:30px;
-}
-img.arrow_boi{
-transition: 0.5s;
-height:50px; 
-width:50px;
-}
-/* Change the color of links on hover */
-.parent_container_top_nav a:hover {
-background-color: #ddd;
-height: auto;
-color: black;
-}
-
-/* Add a color to the active/current link */
-a.active {
-background-color: #fddd3c;
-color: white;
-}
-
-.active{
-visibility: visible;
-}
-/* other devices */
-@media screen and (max-width: 420px) {
-.parent_container_top_nav {
-display: none;
-}
-}
-@media screen and (max-width: 768px) {
-.parent_container_top_nav {
-display: none;
-}
-}
-@media screen and (max-width: 1047px) {
-.parent_container_top_nav {
-display: none;
-}
-}
-@media screen and (max-width: 1366px) {
-.parent_container_top_nav a{
-float: left;
-display: block;
-color: #000000;
-text-align: center;
-padding: 10px 10px;
-text-decoration: none;
-transition: 0.3s;
-height: auto;
-font-weight: 20;
-font-size: 11px;
-}
-.top-navi-text{
-font-size: 20px;    
-overflow: hidden;
-cursor:pointer
-}
-}
-/*Top Navigation bar styling */
 /*Bottom Navigation bar styling */
 .parent_container_bottom_nav {
 background-color: white;
 position: fixed;
 bottom: 0px;
-height: 75px;
+height: 60px;
 width: 230px;
 float: left;
 display: flex;
@@ -2086,181 +2483,405 @@ background-color: #ddd;
 height: 100%;
 color: black;
 }
-/* other devices */
-@media screen and (max-height: 375px) {
-.parent_container_bottom_nav {
-background-color: white;
-position: fixed;
-margin-bottom: -70px;
-height: 75px;
-width: 230px;
-float: left;
-display: flex;
-z-index: 2;
-border-radius: 25px; 
-border-width: 1px;
-border-color: black; 
-border-style: groove;
-overflow: hidden;
-left: 50%;
-transform: translate(-50%, -50%);
-}
-}
-@media screen and (max-width: 420px) {
-.parent_container_bottom_nav {
-background-color: white;
-position: fixed;
-bottom: 0px;
-height: 75px;
-width: 200px;
-float: left;
-display: flex;
-z-index: 3;
-border-radius: 25px; 
-border-width: 1px;
-border-color: black; 
-border-style: groove;
-overflow: hidden;
-left: 50%;
-transform: translate(-50%, -50%);
-}
-.parent_container_bottom_nav a {
-float: center;
-display: flex;
-color: #f2f2f2;
-text-align: center;
-padding: 10px 12px;
-text-decoration: none;
-font-size: 17px;
-}
-img.bottom_nav_icons{
-height: 27px;
-width: 27px;
-}
-}
 /*Bottom Navigation bar styling */
-/*Bug reporting styling */
-.report_a_bug{
-height:auto;
-width:auto;
-text-align:auto;
+
+/* Start of Styling for mini shortcut nav bar */
+.mini_icon_navbar_shortcuts{
 position: fixed;
-display: block;
-background-color: transparent;
-bottom: 0;
-z-index: 2;
+left: 0;
+top: 30%;
+margin-left: 50px;
+width: auto;
+height: auto;
+display: inline-block;
+}
+.mini_icon_navbar_icons{
+height: 100px;
+width: 100px;
+transition: .5s;  
+border-style: solid;
+border-width: 1px;
+border-color: black;
+border-radius: 50%;
+background-color: white;
+text-align: center;
+overflow: hidden;
+display: flex;
+align-content: center;
+vertical-align: middle;
+cursor: pointer;
+}
+.mini_icon_navbar_icons:hover{
+transform: translateY(10px);
+transform: scale(1.3);
+border-style: groove;
+border-color: black;
+border-width: 3px;
+}
+.bounding_mininavbar_iconbar{
+padding-top: 20px;
+padding-bottom: 20px;
+height: auto;
+width: auto;
+background: transparent;
+}
+.mini_icon_navbar_icon_image{
+cursor: pointer;
+left: 0;
+right: 0;
+margin: auto;
+}
+/* Styling for other devices */
+@media screen and (max-width: 450px) and (min-width: 300px) and (orientation: portrait) {
+.mini_icon_navbar_shortcuts{
 position: fixed;
-margin-left: -50px;
+top: 0;
+left: 0;
+right: auto;
+top: 5%;
+margin-left: 0;
+margin-right: -10px;
+width: auto;
+height: auto;
+display: inline-block
 }
-img.bug_boi{
-height: 200px; 
-background-color: transparent; 
-color:transparent;            
+.mini_icon_navbar_icons{
+height: 100px;
+width: 100px;
+transition: .5s;  
+transform: scale(0.7);
 }
-/* other devices */
-@media screen and (max-width: 320px){
-img.bug_boi{
-display: none;        
+.mini_icon_navbar_icons:hover{
+transform: translateY(10px);
+transform: scale(.8);
+border-style: dotted;
+border-width: 3px;
 }
-}
-@media screen and (max-height: 320px){
-.report_a_bug{
-height:auto;
-width:auto;
-text-align:auto;
-position: fixed;
-display: block;
-background-color: transparent;
-bottom: 0;
-z-index: 2;
-position: fixed;
-margin-left: -50px;
-margin-bottom: -70px;
-}
-}
-@media screen and (max-height: 360px){
-.report_a_bug{
-height:auto;
-width:auto;
-text-align:auto;
-position: fixed;
-display: block;
-background-color: transparent;
-bottom: 0;
-z-index: 2;
-position: fixed;
-margin-left: -50px;
-margin-bottom: -70px;
-}
-}
-@media screen and (max-width: 360px){
-img.bug_boi{
-display: none;    
-}
-}
-@media screen and (max-height: 375px){
-.report_a_bug{
-height:auto;
-width:auto;
-text-align:auto;
-position: fixed;
-display: block;
-background-color: transparent;
-bottom: 0;
-z-index: 2;
-position: fixed;
-margin-left: -50px;
-margin-bottom: -70px;
-}
-img.bug_boi{
-display: none;    
-}
-}
-@media screen and (max-height: 420px){
-img.bug_boi{
-display: none;    
-}
-}
-@media screen and (max-width: 420px){
-.report_a_bug{
-height:auto;
-width:auto;
-text-align:auto;
-position: fixed;
-display: block;
-background-color: transparent;
-bottom: 0;
-z-index: 2;
-position: fixed;
-margin-bottom: 2px;
-margin-left: -40px;
+.bounding_mininavbar_iconbar{
+padding-top: 0px;
+padding-bottom: 0px;
+margin-bottom: -30px;
+height: auto;
+width: auto;
+background: transparent;
 }    
-img.bug_boi{
-display: none;    
+}
+@media screen and (max-width: 830px) and (min-width: 568px) and (max-height: 450px) and (orientation: landscape) {    
+.mini_icon_navbar_shortcuts{
+display: none;     
 }
 }
-@media screen and (max-width: 768px){
-.report_a_bug{
+@media screen and (max-width: 280px) and (min-width: 280px) and (max-height: 653px) and (orientation: portrait) {    
+.mini_icon_navbar_shortcuts{
+display: none;     
+}
+}
+@media screen and (max-width: 280px) and (min-width: 280px) and (max-height: 653px) and (orientation: portrait) {    
+body{
 display: none;
-}   
 }
-@media screen and (max-width: 1024px){
-.report_a_bug{
+}
+/* End of Styling for mini shortcut nav bar */
+
+/* Unique styling for special page characteristics */
+/* The progress container (grey background) */
+.progress-container {
+z-index: 1;
+width: 90%;
+height: 8px;
+margin:auto;
+background: lightgray;
+border-radius: 25px; 
+border-color: white;
+border-width: 1px;
+border-style: solid;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+z-index: 1;
+height: 8px;
+background: white;
+width: 0%;
+} 
+
+/* Start of Footer Div Styling */ 
+/* footer for website */
+.footer_text{
+font-size: 12px;
+color: black;
+}
+
+.child_container_main-body_text7{
+color: black;
+font-size: 10px;
+}
+
+.footer {
+display: block;
+position: fixed;
+right: 0;
+bottom: 0;
+height: 30px;
+left: 0;
+z-index: 10; 
+padding: 10px;
+background-color: white;
+text-align: center;
+border-color: black;
+border-style: solid;
+border-width: 1px;
+}
+
+.footer_inner{ 
+
+}
+/* End of Footer Div Styling */
+
+/* Side nav bar styling */
+.sidenav_open_button{
+display: block;
+cursor: pointer;
+position: fixed;
+right: 0;
+top: 50%;
+z-index: 1;
+transition: .5s;
+}
+.bar1, .bar2, .bar3 {
+width: 50px;
+height: 8px;
+background-color: black;
+margin: 6px 0;
+transition: 0.4s;
+}
+.change .bar1 {
+-webkit-transform:translatey(9px);
+transform:translatey(9px);
+opacity: 0;
+}
+.change .bar2 {opacity: 0;}
+.change .bar3 {
+-webkit-transform:translatey(-8px);
+transform:translatey(-8px);
+opacity: 0;
+}
+.sidenav_open_button:hover{
+transform: rotate(90deg);
+}
+.parent_container_side_navbar_QRG{
+width: auto;
+height: 100%;
+position: fixed;
+right: 0;
+top:0;
+z-index: 3;
+}
+.child_container_side_navbar_QRG{
+width: 350px;
+height: 100%;
+position: fixed;
+z-index: 3;
+right: 0;
+top:0;
+background: linear-gradient(50deg, white 90%, black 10%);   
+border-style: solid;
+border-width: 5px;
+border-color: black;
+padding-top: 0px;
+margin-right: -360px;
+transition: 0.5s;
+}
+.grandchild_container_side_navbar_QRG{
+width: 300px;
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+.sidenav_exit_button{
+right: 0;
+top:0;
+margin-right: 20px;
+margin-top: 20px;
+height: auto;
+width: auto;
+position: absolute;
+cursor: pointer;
+transition: .5s;
+}
+.bar4, .bar5, .bar6 {
+width: 35px;
+height: 5px;
+background-color: white;
+margin: 6px 0;
+transition: 0.4s;
+}
+.bar6{
+-webkit-transform: rotate(45deg) translate(-8px, -8px);
+transform: rotate(45deg) translate(-8px, -8px);
+}
+.bar5{opacity: 0;}
+.bar4{
+-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+transform: rotate(-45deg) translate(-9px, 6px);    
+}
+.sidenav_exit_button:hover{
+background-color: transparent;
+transform: scale(1.5);
+}
+.greatgrandchild_container_side_navbar_QRG{
+background-color: transparent;
+text-align: center;
+color: black;
+font-size: 30px;
+margin-top: 100px;
+width: 100%;
+height: 100%;
+}
+.greatgrandchild_text_side_navbar_QRG{
+font-size: 25px;
+font-weight: 400;
+color: black;
+cursor: pointer;
+transition: .25s;
+background-color: transparent;
+border-bottom: 1px solid black;
+}
+.greatgrandchild_text3_side_navbar_QRG{
+font-size: 25px;
+font-weight: 400;
+color: black;
+cursor: pointer;
+transition: .25s;     
+background-color: transparent;
+border-bottom: 1px solid black;
+}
+.greatgrandchild_text2_side_navbar_QRG{
+font-size: 25px;
+font-weight: 400;
+color: white;
+cursor: pointer;
+background-color: black;
+transition: .25s;
+padding-left: 40px;
+padding-right: 40px;
+border-bottom: 1px solid black;
+}
+.sidenav_dropdown_menu_container{
+display: inline-block;
+position: relative;    
+}
+.sidenav_dropbtn{
+font-size: 25px;
+font-weight: 400;
+color: black;
+cursor: pointer;   
+transition: .25s;
+background-color: transparent;
+border-bottom: 1px solid black;
+}    
+.sidenav_QRG_logo_image{
+transition: 1s;
+}
+.sidenav_QRG_logo_image:hover{
+transform: translateY(20px);
+}
+/* changes the color of the font to black whenever the user hovers over the element */
+.sidenav_dropbtn:hover{
+color: gray;
+}
+/* Change color of dropdown links on hover */
+.greatgrandchild_text_side_navbar_QRG:hover {
+letter-spacing: 2px; 
+color: white;
+background-color: black;
+padding-right: 20px;
+padding-left: 20px;
+}
+.greatgrandchild_text2_side_navbar_QRG:hover {color: black;
+padding-right: 60px;
+padding-left: 60px;
+}
+.greatgrandchild_text3_side_navbar_QRG:hover{
+letter-spacing: 1px; 
+color: white;
+background-color: black;    
+}
+.sidenav_dropbtn:hover{
+letter-spacing: 2px; 
+color: white;
+background-color: black;   
+padding-right: 20px;
+padding-left: 20px;
+}
+/* End of drop down menu styling */
+@media screen and (max-width: 830px) and (min-width: 568px) and (max-height: 450px) and (orientation: landscape) {
+.sidenav_open_button{
 display: none;
-}   
 }
-@media screen and (max-width: 1366px){
-.report_a_bug{
-margin-left: -125px;
-}   
 }
-/*Bug reporting styling */
-/* end of Unique styling for special page characteristics */
+/* Side nav bar styling */
 </style>
-<!-- End of CSS -->
+<!-- Universal style sheet for universal page properties such as font-families for tags -->    
 
 
-<!-- Scripts -->
+<!-- Script functions --> <!-- functions that control the back-end functionality of this page -->
+<script>
+
+/* makes the loading screen container disappear so that the user can actually use the homepage's contents properly" */
+function collapsible_div1(){
+if (document.getElementById("info_panel_1").style.maxHeight){
+document.getElementById("info_panel_1").style.maxHeight = null;
+} else {
+document.getElementById("info_panel_1").style.maxHeight = document.getElementById("info_panel_1").scrollHeight + "px";
+} 
+}
+function collapsible_div2(){
+if (document.getElementById("info_panel_2").style.maxHeight){
+document.getElementById("info_panel_2").style.maxHeight = null;
+} else {
+document.getElementById("info_panel_2").style.maxHeight = document.getElementById("info_panel_2").scrollHeight + "px";
+} 
+}
+function collapsible_div3(){
+if (document.getElementById("info_panel_3").style.maxHeight){
+document.getElementById("info_panel_3").style.maxHeight = null;
+} else {
+document.getElementById("info_panel_3").style.maxHeight = document.getElementById("info_panel_3").scrollHeight + "px";
+} 
+}
+function collapsible_div4(){
+if (document.getElementById("info_panel_4").style.maxHeight){
+document.getElementById("info_panel_4").style.maxHeight = null;
+} else {
+document.getElementById("info_panel_4").style.maxHeight = document.getElementById("info_panel_4").scrollHeight + "px";
+} 
+}
+function collapsible_div5(){
+if (document.getElementById("info_panel_5").style.maxHeight){
+document.getElementById("info_panel_5").style.maxHeight = null;
+} else {
+document.getElementById("info_panel_5").style.maxHeight = document.getElementById("info_panel_5").scrollHeight + "px";
+} 
+}
+//END
+
+//Side nav bar toggle function
+function opensidenav(x) {
+x.classList.toggle("change");
+document.getElementById("sidenavbar_universal").style.marginRight = "0px";
+document.getElementById("Document_container").style.opacity = "0.1";
+}
+//Side nav bar toggle function
+function closesidenav(x) {
+document.getElementById("sidenavbar_universal").style.marginRight = "-360px";
+document.getElementById("opennavbutton").classList.toggle("change");
+document.getElementById("Document_container").style.opacity = "1";
+}
+//Side nav bar toggle function
+</script>
+
+<!-- More Scripts -->
 <!-- Includes functions for the typewriting effect as 
 seen in the first div as well as the scroll progress bar effect -->
 <script>
@@ -2288,7 +2909,7 @@ this.txt = fullTxt.substring(0, this.txt.length + 1);
 this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
 var that = this;
-var delta = 200 - Math.random() * 100;
+var delta = 50 - Math.random() * 100;
 
 if (this.isDeleting) { delta /= 2; }
 
@@ -2318,53 +2939,17 @@ new TxtType(elements[i], JSON.parse(toRotate), period);
 // INJECT CSS
 var css = document.createElement("style");
 css.type = "text/css";
-css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-document.body.appendChild(css);
+css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #000}";
+document.body.appendChild(css);  
+document.getElementById("QRG_logo_main_top").style.opacity = "1";
+document.getElementById("top_header").style.top = "0"; 
+setTimeout(function(){ 
+document.getElementById("loading_dock").style.display = "none";}, 6000);
 };
 //End of typewriter
 
-//The following is the progress bar you see placed inside of the footer at the bottom of the page
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-var scrolled = (winScroll / height) * 100;
-document.getElementById("myBar").style.width = scrolled + "%";
-}
-//End of progress bar
-
-//Side nav bar open and close functions for mobile and desktop, and rotates the arrow in the top nav bar upon pressing
-function openNav_1() {
-document.getElementById("side_nav").style.width = "100%";
-document.getElementById("bottom_nav").style.display = "none";
-document.getElementById("footer_id").style.display = "none";
-document.getElementById("arrowhead").style.transform = 'rotate(-90deg)';
-}
-function closeNav() {
-document.getElementById("side_nav").style.width = "0";
-document.getElementById("bottom_nav").style.display = "flex";
-document.getElementById("footer_id").style.display = "block";
-document.getElementById("arrowhead").style.transform = 'rotate(360deg)';
-}
-
-//Used for the arrow on the top nav bar, allows one button to act as an open and close 
-function decide(){
-localStorage.clicks = 1 ;
-if(localStorage.clicks == 1){
-openNav_1();
-localStorage.clicks += 1;
-}
-else{
-closeNav();
-localStorage.clicks = 0;
-}
-}
-//End of side nav 
-
 //iSwitch
-//The following is the iframe switching that you see present on the side nav bar
+//The following is the iframe switching that you see
 //It includes an array of youtube embeded links and an algorithm that switches between the thumbnails
 //and links simulataneously, the link present on the nav bar at the start is early binded to be the first video in the array
 //The switching event occurs every 5 seconds aka 5000ms, this is when the function is triggered again
@@ -2416,12 +3001,21 @@ console.log("The youtube url is not valid.");
 }   
 },5000);  
 //End of iSwitch
-//Dog barks when somebody reports a bug.. soooo not often :D
-function play() {
-var audio = document.getElementById("audio");
-audio.play();
+
+//The following is the progress bar you see placed inside of the footer at the bottom of the page
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+var scrolled = (winScroll / height) * 100;
+document.getElementById("myBar").style.width = scrolled + "%";
 }
+//End of progress bar
+
 //End of scripts
 </script>
+<!-- functions that control the back-end functionality of this page -->
 </body>
 </html>
