@@ -32,8 +32,8 @@ if(isset($_POST['name'])&& isset($_POST['email'])&& isset($_POST['message'])&& f
     // Name is optional
     $mail->addReplyTo($_POST['email'], $_POST['name']);
     $mail->addCC('jcook03266@gmail.com');
-    $mail->addCC('shwethajayaraj729@gmail.com');
-    //$mail->addBCC('bcc@example.com');
+    $mail->addCC('shwethajayaraj729@gmail.com');//Can see other recipients
+    //$mail->addBCC('bcc@example.com'); //Blind carbon copy, cant see other recipients 
 
     //Attachments
     //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
@@ -48,6 +48,14 @@ if(isset($_POST['name'])&& isset($_POST['email'])&& isset($_POST['message'])&& f
     if($mail->send()){
     $status = "success";
     $response = "Message has been sent!";
+        
+    $subjectRep = "Recent Form Submission";
+    $headers = "From: " . "QRG <no-reply@theqrg.org>" . "\r\n";
+    $headers .= "Reply-To: ". "no-reply@theqrg.org" . "\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+    $htmlContent = file_get_contents("contact-form-response-email.html");
+    mail($email, $subjectRep, $htmlContent,$headers);    
     }
     else{
     $status = "failed";

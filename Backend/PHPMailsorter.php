@@ -55,6 +55,14 @@ if(isset($_POST['name'])&& isset($_POST['email'])&& isset($_POST['major'])&& iss
     if($mail->send()){
     $status = "success";
     $response = "Message has been sent!";
+      
+    $subjectRep = "Recent Form Submission";
+    $headers = "From: " . "QRG <no-reply@theqrg.org>" . "\r\n";
+    $headers .= "Reply-To: ". "no-reply@theqrg.org" . "\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+    $htmlContent = file_get_contents("contact-form-response-email.html");
+    mail($email, $subjectRep, $htmlContent,$headers);  
     }
     else{
     $status = "failed";
