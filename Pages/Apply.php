@@ -95,11 +95,11 @@
 <p1 id = "top-blackbar-header"> QRG Membership Application Form</p1>
 </div>
 <div class = "grand_child_container_2" id = "gccc-2">
-<h3 id = "top-notif-header1" class="sent-notification-head1" style = "text-align: center; font-size: 21px; font-weight: 500;"> </h3>
+<h3 id = "top-notif-header1" class="sent-notification-head1" style = "text-align: center; font-size: 21px; font-weight: 500; font-family: 'Raleway', sans-serif;"> </h3>
     
 <img  class = "child_container_loading_image3" src = "https://theqrgbucketresources.s3.us-east-2.amazonaws.com/Vector+Assets+/Atomic_radius_symbol.svg" alt = "Atomic_radius" id = "nucleus">
 
-<h3 id = "top-notif-header2" class="sent-notification-head2" style = "text-align: center; font-size: 21px; font-weight: 400;"> </h3>
+<h3 id = "top-notif-header2" class="sent-notification-head2" style = "text-align: center; font-size: 21px; font-weight: 400; font-family: 'Raleway', sans-serif;"> </h3>
     
 <link href="fcf-assets/css/contact-form.css" rel="stylesheet">
 
@@ -461,6 +461,7 @@ border-style: solid;
 height: auto;
 width: 500px;
 min-width: 400px;
+border-radius: 8px;
 }  
 .child_container_2_textbox_header{
 text-align: center;
