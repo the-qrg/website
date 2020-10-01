@@ -47,6 +47,9 @@ background-color: black;
 #Document_container{
 opacity: 0;    
 } 
+.body{
+outline: none;
+}
 /* The rule hierarchy is overruled after 3 seconds, after which the opacity becomes 1 and the content is loaded */
 /* HTML Code for the Document delayed load  ANTI-FOUC
 
@@ -184,7 +187,7 @@ font-family: 'Raleway', sans-serif;
 p2{
 font-family: 'Open Sans', sans-serif;
 }
-p2{
+p3{
 font-family: 'Open Sans', sans-serif;
 }
 a{
@@ -441,6 +444,7 @@ padding-left: 20px;
 .greatgrandchild_text2_side_navbar_QRG:hover {
 padding-right: 60px;
 padding-left: 60px;
+color: white;
 }
 .greatgrandchild_text3_side_navbar_QRG:hover{
 letter-spacing: 1px; 
